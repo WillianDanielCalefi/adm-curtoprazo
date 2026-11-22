@@ -1,0 +1,2602 @@
+{
+    "source":  "Marcopolo_base_calculos_2017_2025.xlsx",
+    "description":  "Exportacao das abas Dados, Indicadores e Premissas. Celulas com formulas incluem o valor calculado armazenado e a formula original.",
+    "sheets":  [
+                   {
+                       "name":  "Dados",
+                       "range":  "A1:M52",
+                       "rows":  [
+                                    {
+                                        "row":  1,
+                                        "cells":  {
+                                                      "A":  "Marcopolo S.A. – dados de entrada (R$ mil) – Segmento Industrial e Consolidado"
+                                                  }
+                                    },
+                                    {
+                                        "row":  2,
+                                        "cells":  {
+                                                      "A":  "Regra: versão mais recente de cada ano (2017 ← DFP 2017, idêntica à DFP 2018; 2018 ← DFP 2019; 2019 ← DFP 2020; 2020 ← DFP 2021; 2021 ← DFP 2022; 2022 ← DFP 2023; 2023 ← DFP 2024; 2024 ← DFP 2025; 2025 ← DFP 2025). Páginas = rodapé \"PÁGINA: N de …\" do documento. Azul = valor lido do documento. Sinais como nos demonstrativos: CPV, despesas, AVP e PDD negativos."
+                                                  }
+                                    },
+                                    {
+                                        "row":  3,
+                                        "cells":  {
+                                                      "A":  "Fase",
+                                                      "B":  "Pré-pandemia",
+                                                      "C":  "Pré-pandemia",
+                                                      "D":  "Pré-pandemia",
+                                                      "E":  "Pandemia",
+                                                      "F":  "Pandemia",
+                                                      "G":  "Pós-pandemia",
+                                                      "H":  "Pós-pandemia",
+                                                      "I":  "Pós-pandemia",
+                                                      "J":  "Pós-pandemia"
+                                                  }
+                                    },
+                                    {
+                                        "row":  4,
+                                        "cells":  {
+                                                      "A":  "Item",
+                                                      "B":  "2017",
+                                                      "C":  "2018",
+                                                      "D":  "2019",
+                                                      "E":  "2020",
+                                                      "F":  "2021",
+                                                      "G":  "2022",
+                                                      "H":  "2023",
+                                                      "I":  "2024",
+                                                      "J":  "2025",
+                                                      "K":  "Fonte",
+                                                      "L":  "Observação"
+                                                  }
+                                    },
+                                    {
+                                        "row":  5,
+                                        "cells":  {
+                                                      "A":  "Segmento Industrial – Balanço (Nota de segmentos: DFP 2019 Nota 30 p.107; DFP 2020 Nota 31 p.109–110; DFP 2021 Nota 31 p.110–111)"
+                                                  }
+                                    },
+                                    {
+                                        "row":  6,
+                                        "cells":  {
+                                                      "A":  "Caixa e equivalentes de caixa",
+                                                      "B":  946698,
+                                                      "C":  833839,
+                                                      "D":  1057258,
+                                                      "E":  989248,
+                                                      "F":  1279679,
+                                                      "G":  1114967,
+                                                      "H":  1486554,
+                                                      "I":  2044850,
+                                                      "J":  2179202,
+                                                      "L":  "Nota de segmentos",
+                                                      "M":  "Industrial; exclui Banco Moneo. Obs.: a DFC por segmento de 2020 traz 989.428 no saldo final (provável erro de digitação na fonte; o balanço traz 989.248)"
+                                                  }
+                                    },
+                                    {
+                                        "row":  7,
+                                        "cells":  {
+                                                      "A":  "Ativos financeiros a valor justo / custo amortizado (CDB) – circulante",
+                                                      "B":  187373,
+                                                      "C":  89928,
+                                                      "D":  98314,
+                                                      "L":  "Nota de segmentos",
+                                                      "M":  "Zerado em 2020 e 2021"
+                                                  }
+                                    },
+                                    {
+                                        "row":  8,
+                                        "cells":  {
+                                                      "A":  "Instrumentos financeiros derivativos – ativo",
+                                                      "B":  445,
+                                                      "C":  1453,
+                                                      "D":  1849,
+                                                      "E":  2641,
+                                                      "F":  683,
+                                                      "G":  598,
+                                                      "H":  63,
+                                                      "I":  5170,
+                                                      "J":  145,
+                                                      "L":  "Nota de segmentos"
+                                                  }
+                                    },
+                                    {
+                                        "row":  9,
+                                        "cells":  {
+                                                      "A":  "Contas a receber de clientes – circulante",
+                                                      "B":  558154,
+                                                      "C":  860481,
+                                                      "D":  570099,
+                                                      "E":  702407,
+                                                      "F":  411051,
+                                                      "G":  980577,
+                                                      "H":  905927,
+                                                      "I":  975310,
+                                                      "J":  995716,
+                                                      "L":  "Nota de segmentos",
+                                                      "M":  "Industrial (sem relações interfinanceiras do Moneo)"
+                                                  }
+                                    },
+                                    {
+                                        "row":  10,
+                                        "cells":  {
+                                                      "A":  "Contas a receber de clientes – não circulante",
+                                                      "B":  15673,
+                                                      "C":  16645,
+                                                      "F":  27380,
+                                                      "G":  101375,
+                                                      "J":  1192,
+                                                      "L":  "Nota de segmentos",
+                                                      "M":  "Mercado externo"
+                                                  }
+                                    },
+                                    {
+                                        "row":  11,
+                                        "cells":  {
+                                                      "A":  "Estoques",
+                                                      "B":  521364,
+                                                      "C":  686821,
+                                                      "D":  552691,
+                                                      "E":  748411,
+                                                      "F":  987614,
+                                                      "G":  1338351,
+                                                      "H":  1618848,
+                                                      "I":  1828739,
+                                                      "J":  1771089,
+                                                      "L":  "Nota de segmentos; Nota de estoques"
+                                                  }
+                                    },
+                                    {
+                                        "row":  12,
+                                        "cells":  {
+                                                      "A":  "Outras contas a receber – circulante",
+                                                      "B":  291596,
+                                                      "C":  267900,
+                                                      "D":  208274,
+                                                      "E":  379187,
+                                                      "F":  362078,
+                                                      "G":  347899,
+                                                      "H":  349164,
+                                                      "I":  266278,
+                                                      "J":  360338,
+                                                      "L":  "Nota de segmentos",
+                                                      "M":  "PREMISSA: tudo operacional (ACO). Inclui tributos a recuperar e outros. Subiu forte em 2020"
+                                                  }
+                                    },
+                                    {
+                                        "row":  13,
+                                        "cells":  {
+                                                      "A":  "Fornecedores",
+                                                      "B":  366399,
+                                                      "C":  418037,
+                                                      "D":  377527,
+                                                      "E":  358825,
+                                                      "F":  459049,
+                                                      "G":  653253,
+                                                      "H":  793849,
+                                                      "I":  679346,
+                                                      "J":  595686,
+                                                      "L":  "Nota de segmentos"
+                                                  }
+                                    },
+                                    {
+                                        "row":  14,
+                                        "cells":  {
+                                                      "A":  "Empréstimos e financiamentos – circulante (sem arrendamento)",
+                                                      "B":  647130,
+                                                      "C":  658884,
+                                                      "D":  415835,
+                                                      "E":  503673,
+                                                      "F":  691958,
+                                                      "G":  563884,
+                                                      "H":  481946,
+                                                      "I":  815290,
+                                                      "J":  753078,
+                                                      "L":  "Nota de segmentos",
+                                                      "M":  "2019 = versão da DFP 2020 (arrendamento passou para \"outras contas a pagar\"). A DFP 2019 original mostrava 429.428 (com arrendamento)"
+                                                  }
+                                    },
+                                    {
+                                        "row":  15,
+                                        "cells":  {
+                                                      "A":  "Obrigações com arrendamento – circulante",
+                                                      "D":  13593,
+                                                      "E":  18371,
+                                                      "F":  19661,
+                                                      "G":  15110,
+                                                      "H":  17515,
+                                                      "I":  26861,
+                                                      "J":  25730,
+                                                      "L":  "BP Passivo consolidado (cód. 2.01.05.02.07): DFP 2020 p.17; DFP 2021 p.17",
+                                                      "M":  "PREMISSA: todo no segmento industrial; tratado como PCF"
+                                                  }
+                                    },
+                                    {
+                                        "row":  16,
+                                        "cells":  {
+                                                      "A":  "Instrumentos financeiros derivativos – passivo",
+                                                      "B":  2811,
+                                                      "C":  48,
+                                                      "D":  548,
+                                                      "E":  5723,
+                                                      "F":  921,
+                                                      "G":  975,
+                                                      "H":  657,
+                                                      "I":  633,
+                                                      "J":  10664,
+                                                      "L":  "Nota de segmentos"
+                                                  }
+                                    },
+                                    {
+                                        "row":  17,
+                                        "cells":  {
+                                                      "A":  "Outras contas a pagar – circulante",
+                                                      "B":  408619,
+                                                      "C":  570841,
+                                                      "D":  511481,
+                                                      "E":  616790,
+                                                      "F":  662307,
+                                                      "G":  868727,
+                                                      "H":  842427,
+                                                      "I":  1191993,
+                                                      "J":  1296216,
+                                                      "L":  "Nota de segmentos",
+                                                      "M":  "Inclui obrigações sociais/fiscais, adiantamento de clientes, comissões, dividendos e (a partir da versão 2020) arrendamento"
+                                                  }
+                                    },
+                                    {
+                                        "row":  18,
+                                        "cells":  {
+                                                      "A":  "Dividendo mínimo obrigatório a pagar",
+                                                      "B":  15325,
+                                                      "C":  34753,
+                                                      "D":  16958,
+                                                      "E":  92,
+                                                      "F":  71401,
+                                                      "G":  84179,
+                                                      "H":  34227,
+                                                      "I":  2600,
+                                                      "J":  4800,
+                                                      "L":  "BP Passivo consolidado (cód. 2.01.05.02.02)",
+                                                      "M":  "PREMISSA: tratado como PCF"
+                                                  }
+                                    },
+                                    {
+                                        "row":  19,
+                                        "cells":  {
+                                                      "A":  "Ativo circulante industrial (total reportado)",
+                                                      "B":  2505630,
+                                                      "C":  2740422,
+                                                      "D":  2488485,
+                                                      "E":  2821894,
+                                                      "F":  3041105,
+                                                      "G":  3782392,
+                                                      "H":  4360556,
+                                                      "I":  5120347,
+                                                      "J":  5306490,
+                                                      "L":  "Nota de segmentos",
+                                                      "M":  "Conferência"
+                                                  }
+                                    },
+                                    {
+                                        "row":  20,
+                                        "cells":  {
+                                                      "A":  "Passivo circulante industrial (total reportado)",
+                                                      "B":  1424959,
+                                                      "C":  1647810,
+                                                      "D":  1305391,
+                                                      "E":  1485011,
+                                                      "F":  1814235,
+                                                      "G":  2086839,
+                                                      "H":  2118879,
+                                                      "I":  2687262,
+                                                      "J":  2655644,
+                                                      "L":  "Nota de segmentos",
+                                                      "M":  "Conferência"
+                                                  }
+                                    },
+                                    {
+                                        "row":  21,
+                                        "cells":  {
+                                                      "A":  "Segmento Industrial – DRE e fluxo de caixa (DFP 2019 Notas 30–31 p.108; DFP 2020 Notas 31–32 p.110–111; DFP 2021 Notas 31–32 p.111–112)"
+                                                  }
+                                    },
+                                    {
+                                        "row":  22,
+                                        "cells":  {
+                                                      "A":  "Receita líquida de vendas e serviços",
+                                                      "B":  2840440,
+                                                      "C":  4155112,
+                                                      "D":  4276782,
+                                                      "E":  3491945,
+                                                      "F":  3413386,
+                                                      "G":  5312481,
+                                                      "H":  6539149,
+                                                      "I":  8400935,
+                                                      "J":  8796837,
+                                                      "L":  "Nota de segmentos"
+                                                  }
+                                    },
+                                    {
+                                        "row":  23,
+                                        "cells":  {
+                                                      "A":  "Custo dos produtos vendidos e serviços",
+                                                      "B":  -2472347,
+                                                      "C":  -3533152,
+                                                      "D":  -3664255,
+                                                      "E":  -2943337,
+                                                      "F":  -3101684,
+                                                      "G":  -4533926,
+                                                      "H":  -5067163,
+                                                      "I":  -6352497,
+                                                      "J":  -6589675,
+                                                      "L":  "Nota de segmentos",
+                                                      "M":  "Negativo. 2020 e 2021 incluem custo de ociosidade (R$ 56,5 mi e R$ 10,1 mi no consolidado)"
+                                                  }
+                                    },
+                                    {
+                                        "row":  24,
+                                        "cells":  {
+                                                      "A":  "Despesas com vendas",
+                                                      "B":  -154905,
+                                                      "C":  -214964,
+                                                      "D":  -204405,
+                                                      "E":  -191595,
+                                                      "F":  -183033,
+                                                      "G":  -223565,
+                                                      "H":  -335585,
+                                                      "I":  -356678,
+                                                      "J":  -420826,
+                                                      "L":  "Nota de segmentos",
+                                                      "M":  "Negativo"
+                                                  }
+                                    },
+                                    {
+                                        "row":  25,
+                                        "cells":  {
+                                                      "A":  "Despesas administrativas",
+                                                      "B":  -151033,
+                                                      "C":  -162335,
+                                                      "D":  -170065,
+                                                      "E":  -164578,
+                                                      "F":  -190322,
+                                                      "G":  -225442,
+                                                      "H":  -283451,
+                                                      "I":  -355502,
+                                                      "J":  -441477,
+                                                      "L":  "Nota de segmentos",
+                                                      "M":  "Negativo"
+                                                  }
+                                    },
+                                    {
+                                        "row":  26,
+                                        "cells":  {
+                                                      "A":  "Outras receitas (despesas) operacionais líquidas",
+                                                      "B":  -80014,
+                                                      "C":  -26573,
+                                                      "D":  -17486,
+                                                      "E":  2929,
+                                                      "F":  257462,
+                                                      "G":  -49633,
+                                                      "H":  -65107,
+                                                      "I":  -19629,
+                                                      "J":  18780,
+                                                      "L":  "Nota de segmentos",
+                                                      "M":  "2021 inclui créditos tributários não recorrentes (ICMS na base do PIS/COFINS, Selic sobre indébitos) e ganho na venda de imóvel"
+                                                  }
+                                    },
+                                    {
+                                        "row":  27,
+                                        "cells":  {
+                                                      "A":  "Depreciações e amortizações",
+                                                      "B":  45166,
+                                                      "C":  60521,
+                                                      "D":  86148,
+                                                      "E":  95781,
+                                                      "F":  105221,
+                                                      "G":  119436,
+                                                      "H":  145910,
+                                                      "I":  167152,
+                                                      "J":  156041,
+                                                      "L":  "Nota de fluxo de caixa por segmento"
+                                                  }
+                                    },
+                                    {
+                                        "row":  28,
+                                        "cells":  {
+                                                      "A":  "Lucro líquido do exercício",
+                                                      "B":  79311,
+                                                      "C":  199468,
+                                                      "D":  206891,
+                                                      "E":  84760,
+                                                      "F":  350107,
+                                                      "G":  421391,
+                                                      "H":  782550,
+                                                      "I":  1187299,
+                                                      "J":  1193312,
+                                                      "L":  "Nota de segmentos"
+                                                  }
+                                    },
+                                    {
+                                        "row":  29,
+                                        "cells":  {
+                                                      "A":  "Caixa líquido das atividades operacionais",
+                                                      "B":  134412,
+                                                      "C":  120961,
+                                                      "D":  645039,
+                                                      "E":  191563,
+                                                      "F":  83731,
+                                                      "G":  4856,
+                                                      "H":  1194111,
+                                                      "I":  1472817,
+                                                      "J":  1449579,
+                                                      "L":  "Nota de fluxo de caixa por segmento"
+                                                  }
+                                    },
+                                    {
+                                        "row":  30,
+                                        "cells":  {
+                                                      "A":  "Estoque inicial (31/12 do ano anterior)",
+                                                      "B":  472057,
+                                                      "C":  {
+                                                                "value":  521364,
+                                                                "formula":  "B11"
+                                                            },
+                                                      "D":  {
+                                                                "value":  686821,
+                                                                "formula":  "C11"
+                                                            },
+                                                      "E":  {
+                                                                "value":  552691,
+                                                                "formula":  "D11"
+                                                            },
+                                                      "F":  {
+                                                                "value":  748411,
+                                                                "formula":  "E11"
+                                                            },
+                                                      "G":  {
+                                                                "value":  987614,
+                                                                "formula":  "F11"
+                                                            },
+                                                      "H":  {
+                                                                "value":  1338351,
+                                                                "formula":  "G11"
+                                                            },
+                                                      "I":  {
+                                                                "value":  1618848,
+                                                                "formula":  "H11"
+                                                            },
+                                                      "J":  {
+                                                                "value":  1828739,
+                                                                "formula":  "I11"
+                                                            },
+                                                      "L":  "2017: estoque de 2016 (nota de segmentos da DFP 2017); demais: estoque do ano anterior",
+                                                      "M":  "Base para Compras = CPV − Est. inicial + Est. final"
+                                                  }
+                                    },
+                                    {
+                                        "row":  31,
+                                        "cells":  {
+                                                      "A":  "Consolidado (inclui Banco Moneo) – conferência e aging"
+                                                  }
+                                    },
+                                    {
+                                        "row":  32,
+                                        "cells":  {
+                                                      "A":  "Ativo circulante consolidado",
+                                                      "B":  2822901,
+                                                      "C":  3060988,
+                                                      "D":  2835219,
+                                                      "E":  3171052,
+                                                      "F":  3367187,
+                                                      "G":  4145740,
+                                                      "H":  4810225,
+                                                      "I":  5660221,
+                                                      "J":  5949062,
+                                                      "L":  "BP Ativo consolidado",
+                                                      "M":  "Conferência"
+                                                  }
+                                    },
+                                    {
+                                        "row":  33,
+                                        "cells":  {
+                                                      "A":  "Passivo circulante consolidado",
+                                                      "B":  1619266,
+                                                      "C":  1828427,
+                                                      "D":  1512406,
+                                                      "E":  1718308,
+                                                      "F":  2026040,
+                                                      "G":  2288932,
+                                                      "H":  2386866,
+                                                      "I":  3079587,
+                                                      "J":  3146501,
+                                                      "L":  "BP Passivo consolidado",
+                                                      "M":  "Conferência"
+                                                  }
+                                    },
+                                    {
+                                        "row":  34,
+                                        "cells":  {
+                                                      "A":  "Receita líquida consolidada",
+                                                      "B":  2875993,
+                                                      "C":  4197468,
+                                                      "D":  4367419,
+                                                      "E":  3589662,
+                                                      "F":  3499439,
+                                                      "G":  5415618,
+                                                      "H":  6683218,
+                                                      "I":  8593837,
+                                                      "J":  9057548,
+                                                      "L":  "DRE consolidada",
+                                                      "M":  "2019 reapresentada na DFP 2020 (4.314.534 → 4.367.419): ajuste só no segmento financeiro (receita e custo de intermediação, R$ 52,9 mi). Industrial não mudou"
+                                                  }
+                                    },
+                                    {
+                                        "row":  35,
+                                        "cells":  {
+                                                      "A":  "Relações interfinanceiras (Banco Moneo), circ. + não circ.",
+                                                      "B":  713651,
+                                                      "C":  632390,
+                                                      "D":  712125,
+                                                      "E":  785429,
+                                                      "F":  726956,
+                                                      "G":  754248,
+                                                      "H":  958873,
+                                                      "I":  1336734,
+                                                      "J":  1549411,
+                                                      "L":  "Nota de contas a receber"
+                                                  }
+                                    },
+                                    {
+                                        "row":  36,
+                                        "cells":  {
+                                                      "A":  "Aging das contas a receber – CONSOLIDADO (nota \"Contas a receber de clientes\")"
+                                                  }
+                                    },
+                                    {
+                                        "row":  37,
+                                        "cells":  {
+                                                      "A":  "Valores a vencer",
+                                                      "B":  1155439,
+                                                      "C":  1302102,
+                                                      "D":  1214350,
+                                                      "E":  1337103,
+                                                      "F":  1077418,
+                                                      "G":  1588446,
+                                                      "H":  1733949,
+                                                      "I":  2099188,
+                                                      "J":  2435497,
+                                                      "L":  "Nota de contas a receber",
+                                                      "M":  "Inclui Moneo; a nota não separa o aging do industrial"
+                                                  }
+                                    },
+                                    {
+                                        "row":  38,
+                                        "cells":  {
+                                                      "A":  "Vencidos até 30 dias",
+                                                      "B":  53185,
+                                                      "C":  102710,
+                                                      "D":  36178,
+                                                      "E":  53907,
+                                                      "F":  54172,
+                                                      "G":  125853,
+                                                      "H":  46605,
+                                                      "I":  132086,
+                                                      "J":  45809,
+                                                      "L":  "Nota de contas a receber"
+                                                  }
+                                    },
+                                    {
+                                        "row":  39,
+                                        "cells":  {
+                                                      "A":  "Vencidos 31 a 60 dias",
+                                                      "B":  14304,
+                                                      "C":  50814,
+                                                      "D":  7751,
+                                                      "E":  20947,
+                                                      "F":  8142,
+                                                      "G":  57287,
+                                                      "H":  18320,
+                                                      "I":  28660,
+                                                      "J":  19398,
+                                                      "L":  "Nota de contas a receber"
+                                                  }
+                                    },
+                                    {
+                                        "row":  40,
+                                        "cells":  {
+                                                      "A":  "Vencidos 61 a 90 dias",
+                                                      "B":  15350,
+                                                      "C":  27123,
+                                                      "D":  6716,
+                                                      "E":  7822,
+                                                      "F":  3946,
+                                                      "G":  35114,
+                                                      "H":  9561,
+                                                      "I":  22260,
+                                                      "J":  19895,
+                                                      "L":  "Nota de contas a receber"
+                                                  }
+                                    },
+                                    {
+                                        "row":  41,
+                                        "cells":  {
+                                                      "A":  "Vencidos 91 a 180 dias",
+                                                      "B":  27662,
+                                                      "C":  20132,
+                                                      "D":  12887,
+                                                      "E":  30728,
+                                                      "F":  9239,
+                                                      "G":  53531,
+                                                      "H":  20775,
+                                                      "I":  48287,
+                                                      "J":  16969,
+                                                      "L":  "Nota de contas a receber"
+                                                  }
+                                    },
+                                    {
+                                        "row":  42,
+                                        "cells":  {
+                                                      "A":  "Vencidos acima de 181 dias",
+                                                      "B":  107050,
+                                                      "C":  116166,
+                                                      "D":  92535,
+                                                      "E":  125013,
+                                                      "F":  107721,
+                                                      "G":  57534,
+                                                      "H":  123962,
+                                                      "I":  61857,
+                                                      "J":  98677,
+                                                      "L":  "Nota de contas a receber"
+                                                  }
+                                    },
+                                    {
+                                        "row":  43,
+                                        "cells":  {
+                                                      "A":  "Ajuste a valor presente",
+                                                      "B":  -2727,
+                                                      "C":  -4507,
+                                                      "D":  -5887,
+                                                      "E":  -7915,
+                                                      "F":  -7087,
+                                                      "G":  -22476,
+                                                      "H":  -9481,
+                                                      "I":  -9431,
+                                                      "J":  -12313,
+                                                      "L":  "Nota de contas a receber",
+                                                      "M":  "Negativo"
+                                                  }
+                                    },
+                                    {
+                                        "row":  44,
+                                        "cells":  {
+                                                      "A":  "PDD / perdas de crédito esperadas (total)",
+                                                      "B":  -120180,
+                                                      "C":  -151705,
+                                                      "D":  -140740,
+                                                      "E":  -147220,
+                                                      "F":  -160521,
+                                                      "G":  -139184,
+                                                      "H":  -142554,
+                                                      "I":  -130854,
+                                                      "J":  -134912,
+                                                      "L":  "Nota de contas a receber",
+                                                      "M":  "Negativo. Saldo final da movimentação da PDD"
+                                                  }
+                                    },
+                                    {
+                                        "row":  45,
+                                        "cells":  {
+                                                      "A":  "Total do contas a receber (líquido)",
+                                                      "B":  1250083,
+                                                      "C":  1462835,
+                                                      "D":  1223790,
+                                                      "E":  1420385,
+                                                      "F":  1093030,
+                                                      "G":  1756105,
+                                                      "H":  1801137,
+                                                      "I":  2252053,
+                                                      "J":  2489020,
+                                                      "L":  "Nota de contas a receber",
+                                                      "M":  "Circulante + não circulante; deve fechar com o aging"
+                                                  }
+                                    },
+                                    {
+                                        "row":  46,
+                                        "cells":  {
+                                                      "A":  "Composição dos estoques – CONSOLIDADO (nota \"Estoques\")"
+                                                  }
+                                    },
+                                    {
+                                        "row":  47,
+                                        "cells":  {
+                                                      "A":  "Produtos acabados",
+                                                      "B":  114125,
+                                                      "C":  147821,
+                                                      "D":  97080,
+                                                      "E":  224238,
+                                                      "F":  207922,
+                                                      "G":  406917,
+                                                      "H":  338568,
+                                                      "I":  350609,
+                                                      "J":  444304,
+                                                      "L":  "Nota de estoques"
+                                                  }
+                                    },
+                                    {
+                                        "row":  48,
+                                        "cells":  {
+                                                      "A":  "Produtos em elaboração",
+                                                      "B":  114639,
+                                                      "C":  148387,
+                                                      "D":  105942,
+                                                      "E":  110781,
+                                                      "F":  145232,
+                                                      "G":  168580,
+                                                      "H":  280527,
+                                                      "I":  426156,
+                                                      "J":  357150,
+                                                      "L":  "Nota de estoques"
+                                                  }
+                                    },
+                                    {
+                                        "row":  49,
+                                        "cells":  {
+                                                      "A":  "Matérias-primas e auxiliares",
+                                                      "B":  282213,
+                                                      "C":  365550,
+                                                      "D":  324365,
+                                                      "E":  372143,
+                                                      "F":  569584,
+                                                      "G":  724937,
+                                                      "H":  952644,
+                                                      "I":  964638,
+                                                      "J":  885326,
+                                                      "L":  "Nota de estoques"
+                                                  }
+                                    },
+                                    {
+                                        "row":  50,
+                                        "cells":  {
+                                                      "A":  "Adiantamentos a fornecedores / importações em andamento",
+                                                      "B":  18421,
+                                                      "C":  33701,
+                                                      "D":  35878,
+                                                      "E":  54915,
+                                                      "F":  81362,
+                                                      "G":  52071,
+                                                      "H":  73367,
+                                                      "I":  87336,
+                                                      "J":  84309,
+                                                      "L":  "Nota de estoques"
+                                                  }
+                                    },
+                                    {
+                                        "row":  51,
+                                        "cells":  {
+                                                      "A":  "Provisão para perdas nos estoques",
+                                                      "B":  -8034,
+                                                      "C":  -8638,
+                                                      "D":  -10574,
+                                                      "E":  -13666,
+                                                      "F":  -16486,
+                                                      "G":  -14154,
+                                                      "H":  -26258,
+                                                      "L":  "Nota de estoques",
+                                                      "M":  "Negativo. A partir de 2024 a nota deixa de mostrar a provisão em linha própria (valor líquido nas demais linhas)"
+                                                  }
+                                    },
+                                    {
+                                        "row":  52,
+                                        "cells":  {
+                                                      "A":  "Total dos estoques",
+                                                      "B":  521364,
+                                                      "C":  686821,
+                                                      "D":  552691,
+                                                      "E":  748411,
+                                                      "F":  987614,
+                                                      "G":  1338351,
+                                                      "H":  1618848,
+                                                      "I":  1828739,
+                                                      "J":  1771089,
+                                                      "L":  "Nota de estoques",
+                                                      "M":  "Deve fechar com a soma"
+                                                  }
+                                    }
+                                ]
+                   },
+                   {
+                       "name":  "Indicadores",
+                       "range":  "A1:L55",
+                       "rows":  [
+                                    {
+                                        "row":  1,
+                                        "cells":  {
+                                                      "A":  "Indicadores – Segmento Industrial da Marcopolo (saldo final, 360 dias)"
+                                                  }
+                                    },
+                                    {
+                                        "row":  2,
+                                        "cells":  {
+                                                      "A":  "Todas as células são fórmulas ligadas à aba Dados. Valores em R$ mil, prazos em dias. CPV, despesas, AVP e PDD vêm negativos de Dados; as fórmulas invertem o sinal."
+                                                  }
+                                    },
+                                    {
+                                        "row":  4,
+                                        "cells":  {
+                                                      "A":  "Indicador",
+                                                      "B":  "2017",
+                                                      "C":  "2018",
+                                                      "D":  "2019",
+                                                      "E":  "2020",
+                                                      "F":  "2021",
+                                                      "G":  "2022",
+                                                      "H":  "2023",
+                                                      "I":  "2024",
+                                                      "J":  "2025",
+                                                      "K":  "Fórmula / como ler"
+                                                  }
+                                    },
+                                    {
+                                        "row":  5,
+                                        "cells":  {
+                                                      "A":  "1. Prazos médios e ciclos"
+                                                  }
+                                    },
+                                    {
+                                        "row":  6,
+                                        "cells":  {
+                                                      "A":  "PMRV – prazo médio de recebimento de vendas",
+                                                      "B":  {
+                                                                "value":  72.7273661827041,
+                                                                "formula":  "360*(Dados!B9+Dados!B10)/Dados!B22"
+                                                            },
+                                                      "C":  {
+                                                                "value":  75.9944280683649,
+                                                                "formula":  "360*(Dados!C9+Dados!C10)/Dados!C22"
+                                                            },
+                                                      "D":  {
+                                                                "value":  47.988333284231,
+                                                                "formula":  "360*(Dados!D9+Dados!D10)/Dados!D22"
+                                                            },
+                                                      "E":  {
+                                                                "value":  72.4142333284173,
+                                                                "formula":  "360*(Dados!E9+Dados!E10)/Dados!E22"
+                                                            },
+                                                      "F":  {
+                                                                "value":  46.240056061635,
+                                                                "formula":  "360*(Dados!F9+Dados!F10)/Dados!F22"
+                                                            },
+                                                      "G":  {
+                                                                "value":  73.3184212800008,
+                                                                "formula":  "360*(Dados!G9+Dados!G10)/Dados!G22"
+                                                            },
+                                                      "H":  {
+                                                                "value":  49.8740310092338,
+                                                                "formula":  "360*(Dados!H9+Dados!H10)/Dados!H22"
+                                                            },
+                                                      "I":  {
+                                                                "value":  41.7943478910383,
+                                                                "formula":  "360*(Dados!I9+Dados!I10)/Dados!I22"
+                                                            },
+                                                      "J":  {
+                                                                "value":  40.797263834717,
+                                                                "formula":  "360*(Dados!J9+Dados!J10)/Dados!J22"
+                                                            },
+                                                      "L":  "360 × Clientes (circ.+não circ.) ÷ Receita líquida"
+                                                  }
+                                    },
+                                    {
+                                        "row":  7,
+                                        "cells":  {
+                                                      "A":  "PMRE – prazo médio de renovação dos estoques",
+                                                      "B":  {
+                                                                "value":  75.9161396033809,
+                                                                "formula":  "360*Dados!B11/(-Dados!B23)"
+                                                            },
+                                                      "C":  {
+                                                                "value":  69.9815801867568,
+                                                                "formula":  "360*Dados!C11/(-Dados!C23)"
+                                                            },
+                                                      "D":  {
+                                                                "value":  54.2999218122101,
+                                                                "formula":  "360*Dados!D11/(-Dados!D23)"
+                                                            },
+                                                      "E":  {
+                                                                "value":  91.5382642218679,
+                                                                "formula":  "360*Dados!E11/(-Dados!E23)"
+                                                            },
+                                                      "F":  {
+                                                                "value":  114.628388965478,
+                                                                "formula":  "360*Dados!F11/(-Dados!F23)"
+                                                            },
+                                                      "G":  {
+                                                                "value":  106.266921868597,
+                                                                "formula":  "360*Dados!G11/(-Dados!G23)"
+                                                            },
+                                                      "H":  {
+                                                                "value":  115.012143876169,
+                                                                "formula":  "360*Dados!H11/(-Dados!H23)"
+                                                            },
+                                                      "I":  {
+                                                                "value":  103.635789202262,
+                                                                "formula":  "360*Dados!I11/(-Dados!I23)"
+                                                            },
+                                                      "J":  {
+                                                                "value":  96.7562193886649,
+                                                                "formula":  "360*Dados!J11/(-Dados!J23)"
+                                                            },
+                                                      "L":  "360 × Estoques ÷ CPV"
+                                                  }
+                                    },
+                                    {
+                                        "row":  8,
+                                        "cells":  {
+                                                      "A":  "Compras do período (R$ mil)",
+                                                      "B":  {
+                                                                "value":  2521654,
+                                                                "formula":  "(-Dados!B23)-Dados!B30+Dados!B11"
+                                                            },
+                                                      "C":  {
+                                                                "value":  3698609,
+                                                                "formula":  "(-Dados!C23)-Dados!C30+Dados!C11"
+                                                            },
+                                                      "D":  {
+                                                                "value":  3530125,
+                                                                "formula":  "(-Dados!D23)-Dados!D30+Dados!D11"
+                                                            },
+                                                      "E":  {
+                                                                "value":  3139057,
+                                                                "formula":  "(-Dados!E23)-Dados!E30+Dados!E11"
+                                                            },
+                                                      "F":  {
+                                                                "value":  3340887,
+                                                                "formula":  "(-Dados!F23)-Dados!F30+Dados!F11"
+                                                            },
+                                                      "G":  {
+                                                                "value":  4884663,
+                                                                "formula":  "(-Dados!G23)-Dados!G30+Dados!G11"
+                                                            },
+                                                      "H":  {
+                                                                "value":  5347660,
+                                                                "formula":  "(-Dados!H23)-Dados!H30+Dados!H11"
+                                                            },
+                                                      "I":  {
+                                                                "value":  6562388,
+                                                                "formula":  "(-Dados!I23)-Dados!I30+Dados!I11"
+                                                            },
+                                                      "J":  {
+                                                                "value":  6532025,
+                                                                "formula":  "(-Dados!J23)-Dados!J30+Dados!J11"
+                                                            },
+                                                      "L":  "CPV − Estoque inicial + Estoque final"
+                                                  }
+                                    },
+                                    {
+                                        "row":  9,
+                                        "cells":  {
+                                                      "A":  "PMPC – prazo médio de pagamento de compras",
+                                                      "B":  {
+                                                                "value":  52.3083817208864,
+                                                                "formula":  "360*Dados!B13/B8"
+                                                            },
+                                                      "C":  {
+                                                                "value":  40.6891671977222,
+                                                                "formula":  "360*Dados!C13/C8"
+                                                            },
+                                                      "D":  {
+                                                                "value":  38.4999737969619,
+                                                                "formula":  "360*Dados!D13/D8"
+                                                            },
+                                                      "E":  {
+                                                                "value":  41.1515305392671,
+                                                                "formula":  "360*Dados!E13/E8"
+                                                            },
+                                                      "F":  {
+                                                                "value":  49.4651989127438,
+                                                                "formula":  "360*Dados!F13/F8"
+                                                            },
+                                                      "G":  {
+                                                                "value":  48.1447911555004,
+                                                                "formula":  "360*Dados!G13/G8"
+                                                            },
+                                                      "H":  {
+                                                                "value":  53.4412509396633,
+                                                                "formula":  "360*Dados!H13/H8"
+                                                            },
+                                                      "I":  {
+                                                                "value":  37.2676166054186,
+                                                                "formula":  "360*Dados!I13/I8"
+                                                            },
+                                                      "J":  {
+                                                                "value":  32.8300886784726,
+                                                                "formula":  "360*Dados!J13/J8"
+                                                            },
+                                                      "L":  "360 × Fornecedores ÷ Compras"
+                                                  }
+                                    },
+                                    {
+                                        "row":  10,
+                                        "cells":  {
+                                                      "A":  "Ciclo operacional",
+                                                      "B":  {
+                                                                "value":  148.643505786085,
+                                                                "formula":  "B7+B6"
+                                                            },
+                                                      "C":  {
+                                                                "value":  145.976008255122,
+                                                                "formula":  "C7+C6"
+                                                            },
+                                                      "D":  {
+                                                                "value":  102.288255096441,
+                                                                "formula":  "D7+D6"
+                                                            },
+                                                      "E":  {
+                                                                "value":  163.952497550285,
+                                                                "formula":  "E7+E6"
+                                                            },
+                                                      "F":  {
+                                                                "value":  160.868445027113,
+                                                                "formula":  "F7+F6"
+                                                            },
+                                                      "G":  {
+                                                                "value":  179.585343148598,
+                                                                "formula":  "G7+G6"
+                                                            },
+                                                      "H":  {
+                                                                "value":  164.886174885403,
+                                                                "formula":  "H7+H6"
+                                                            },
+                                                      "I":  {
+                                                                "value":  145.4301370933,
+                                                                "formula":  "I7+I6"
+                                                            },
+                                                      "J":  {
+                                                                "value":  137.553483223382,
+                                                                "formula":  "J7+J6"
+                                                            },
+                                                      "L":  "PMRE + PMRV"
+                                                  }
+                                    },
+                                    {
+                                        "row":  11,
+                                        "cells":  {
+                                                      "A":  "Ciclo financeiro (ciclo de caixa)",
+                                                      "B":  {
+                                                                "value":  96.3351240651986,
+                                                                "formula":  "B10-B9"
+                                                            },
+                                                      "C":  {
+                                                                "value":  105.2868410574,
+                                                                "formula":  "C10-C9"
+                                                            },
+                                                      "D":  {
+                                                                "value":  63.7882812994793,
+                                                                "formula":  "D10-D9"
+                                                            },
+                                                      "E":  {
+                                                                "value":  122.800967011018,
+                                                                "formula":  "E10-E9"
+                                                            },
+                                                      "F":  {
+                                                                "value":  111.403246114369,
+                                                                "formula":  "F10-F9"
+                                                            },
+                                                      "G":  {
+                                                                "value":  131.440551993097,
+                                                                "formula":  "G10-G9"
+                                                            },
+                                                      "H":  {
+                                                                "value":  111.444923945739,
+                                                                "formula":  "H10-H9"
+                                                            },
+                                                      "I":  {
+                                                                "value":  108.162520487881,
+                                                                "formula":  "I10-I9"
+                                                            },
+                                                      "J":  {
+                                                                "value":  104.723394544909,
+                                                                "formula":  "J10-J9"
+                                                            },
+                                                      "L":  "Ciclo operacional − PMPC"
+                                                  }
+                                    },
+                                    {
+                                        "row":  13,
+                                        "cells":  {
+                                                      "A":  "2. Reclassificação do circulante e CGL = NCG + ST"
+                                                  }
+                                    },
+                                    {
+                                        "row":  14,
+                                        "cells":  {
+                                                      "A":  "ACO – ativo circulante operacional",
+                                                      "B":  {
+                                                                "value":  1371114,
+                                                                "formula":  "Dados!B9+Dados!B11+Dados!B12"
+                                                            },
+                                                      "C":  {
+                                                                "value":  1815202,
+                                                                "formula":  "Dados!C9+Dados!C11+Dados!C12"
+                                                            },
+                                                      "D":  {
+                                                                "value":  1331064,
+                                                                "formula":  "Dados!D9+Dados!D11+Dados!D12"
+                                                            },
+                                                      "E":  {
+                                                                "value":  1830005,
+                                                                "formula":  "Dados!E9+Dados!E11+Dados!E12"
+                                                            },
+                                                      "F":  {
+                                                                "value":  1760743,
+                                                                "formula":  "Dados!F9+Dados!F11+Dados!F12"
+                                                            },
+                                                      "G":  {
+                                                                "value":  2666827,
+                                                                "formula":  "Dados!G9+Dados!G11+Dados!G12"
+                                                            },
+                                                      "H":  {
+                                                                "value":  2873939,
+                                                                "formula":  "Dados!H9+Dados!H11+Dados!H12"
+                                                            },
+                                                      "I":  {
+                                                                "value":  3070327,
+                                                                "formula":  "Dados!I9+Dados!I11+Dados!I12"
+                                                            },
+                                                      "J":  {
+                                                                "value":  3127143,
+                                                                "formula":  "Dados!J9+Dados!J11+Dados!J12"
+                                                            },
+                                                      "L":  "Clientes + Estoques + Outras contas a receber"
+                                                  }
+                                    },
+                                    {
+                                        "row":  15,
+                                        "cells":  {
+                                                      "A":  "ACF – ativo circulante financeiro",
+                                                      "B":  {
+                                                                "value":  1134516,
+                                                                "formula":  "Dados!B6+Dados!B7+Dados!B8"
+                                                            },
+                                                      "C":  {
+                                                                "value":  925220,
+                                                                "formula":  "Dados!C6+Dados!C7+Dados!C8"
+                                                            },
+                                                      "D":  {
+                                                                "value":  1157421,
+                                                                "formula":  "Dados!D6+Dados!D7+Dados!D8"
+                                                            },
+                                                      "E":  {
+                                                                "value":  991889,
+                                                                "formula":  "Dados!E6+Dados!E7+Dados!E8"
+                                                            },
+                                                      "F":  {
+                                                                "value":  1280362,
+                                                                "formula":  "Dados!F6+Dados!F7+Dados!F8"
+                                                            },
+                                                      "G":  {
+                                                                "value":  1115565,
+                                                                "formula":  "Dados!G6+Dados!G7+Dados!G8"
+                                                            },
+                                                      "H":  {
+                                                                "value":  1486617,
+                                                                "formula":  "Dados!H6+Dados!H7+Dados!H8"
+                                                            },
+                                                      "I":  {
+                                                                "value":  2050020,
+                                                                "formula":  "Dados!I6+Dados!I7+Dados!I8"
+                                                            },
+                                                      "J":  {
+                                                                "value":  2179347,
+                                                                "formula":  "Dados!J6+Dados!J7+Dados!J8"
+                                                            },
+                                                      "L":  "Caixa + CDB + Derivativos"
+                                                  }
+                                    },
+                                    {
+                                        "row":  16,
+                                        "cells":  {
+                                                      "A":  "PCO – passivo circulante operacional",
+                                                      "B":  {
+                                                                "value":  759693,
+                                                                "formula":  "Dados!B13+Dados!B17-Dados!B18-Dados!B15"
+                                                            },
+                                                      "C":  {
+                                                                "value":  954125,
+                                                                "formula":  "Dados!C13+Dados!C17-Dados!C18-Dados!C15"
+                                                            },
+                                                      "D":  {
+                                                                "value":  858457,
+                                                                "formula":  "Dados!D13+Dados!D17-Dados!D18-Dados!D15"
+                                                            },
+                                                      "E":  {
+                                                                "value":  957152,
+                                                                "formula":  "Dados!E13+Dados!E17-Dados!E18-Dados!E15"
+                                                            },
+                                                      "F":  {
+                                                                "value":  1030294,
+                                                                "formula":  "Dados!F13+Dados!F17-Dados!F18-Dados!F15"
+                                                            },
+                                                      "G":  {
+                                                                "value":  1422691,
+                                                                "formula":  "Dados!G13+Dados!G17-Dados!G18-Dados!G15"
+                                                            },
+                                                      "H":  {
+                                                                "value":  1584534,
+                                                                "formula":  "Dados!H13+Dados!H17-Dados!H18-Dados!H15"
+                                                            },
+                                                      "I":  {
+                                                                "value":  1841878,
+                                                                "formula":  "Dados!I13+Dados!I17-Dados!I18-Dados!I15"
+                                                            },
+                                                      "J":  {
+                                                                "value":  1861372,
+                                                                "formula":  "Dados!J13+Dados!J17-Dados!J18-Dados!J15"
+                                                            },
+                                                      "L":  "Fornecedores + Outras contas a pagar − Dividendos − Arrendamento"
+                                                  }
+                                    },
+                                    {
+                                        "row":  17,
+                                        "cells":  {
+                                                      "A":  "PCF – passivo circulante financeiro",
+                                                      "B":  {
+                                                                "value":  665266,
+                                                                "formula":  "Dados!B14+Dados!B15+Dados!B16+Dados!B18"
+                                                            },
+                                                      "C":  {
+                                                                "value":  693685,
+                                                                "formula":  "Dados!C14+Dados!C15+Dados!C16+Dados!C18"
+                                                            },
+                                                      "D":  {
+                                                                "value":  446934,
+                                                                "formula":  "Dados!D14+Dados!D15+Dados!D16+Dados!D18"
+                                                            },
+                                                      "E":  {
+                                                                "value":  527859,
+                                                                "formula":  "Dados!E14+Dados!E15+Dados!E16+Dados!E18"
+                                                            },
+                                                      "F":  {
+                                                                "value":  783941,
+                                                                "formula":  "Dados!F14+Dados!F15+Dados!F16+Dados!F18"
+                                                            },
+                                                      "G":  {
+                                                                "value":  664148,
+                                                                "formula":  "Dados!G14+Dados!G15+Dados!G16+Dados!G18"
+                                                            },
+                                                      "H":  {
+                                                                "value":  534345,
+                                                                "formula":  "Dados!H14+Dados!H15+Dados!H16+Dados!H18"
+                                                            },
+                                                      "I":  {
+                                                                "value":  845384,
+                                                                "formula":  "Dados!I14+Dados!I15+Dados!I16+Dados!I18"
+                                                            },
+                                                      "J":  {
+                                                                "value":  794272,
+                                                                "formula":  "Dados!J14+Dados!J15+Dados!J16+Dados!J18"
+                                                            },
+                                                      "L":  "Empréstimos CP + Arrendamento + Derivativos + Dividendos a pagar"
+                                                  }
+                                    },
+                                    {
+                                        "row":  18,
+                                        "cells":  {
+                                                      "A":  "NCG = ACO − PCO",
+                                                      "B":  {
+                                                                "value":  611421,
+                                                                "formula":  "B14-B16"
+                                                            },
+                                                      "C":  {
+                                                                "value":  861077,
+                                                                "formula":  "C14-C16"
+                                                            },
+                                                      "D":  {
+                                                                "value":  472607,
+                                                                "formula":  "D14-D16"
+                                                            },
+                                                      "E":  {
+                                                                "value":  872853,
+                                                                "formula":  "E14-E16"
+                                                            },
+                                                      "F":  {
+                                                                "value":  730449,
+                                                                "formula":  "F14-F16"
+                                                            },
+                                                      "G":  {
+                                                                "value":  1244136,
+                                                                "formula":  "G14-G16"
+                                                            },
+                                                      "H":  {
+                                                                "value":  1289405,
+                                                                "formula":  "H14-H16"
+                                                            },
+                                                      "I":  {
+                                                                "value":  1228449,
+                                                                "formula":  "I14-I16"
+                                                            },
+                                                      "J":  {
+                                                                "value":  1265771,
+                                                                "formula":  "J14-J16"
+                                                            },
+                                                      "L":  "Necessidade de capital de giro"
+                                                  }
+                                    },
+                                    {
+                                        "row":  19,
+                                        "cells":  {
+                                                      "A":  "ST = ACF − PCF (saldo em tesouraria)",
+                                                      "B":  {
+                                                                "value":  469250,
+                                                                "formula":  "B15-B17"
+                                                            },
+                                                      "C":  {
+                                                                "value":  231535,
+                                                                "formula":  "C15-C17"
+                                                            },
+                                                      "D":  {
+                                                                "value":  710487,
+                                                                "formula":  "D15-D17"
+                                                            },
+                                                      "E":  {
+                                                                "value":  464030,
+                                                                "formula":  "E15-E17"
+                                                            },
+                                                      "F":  {
+                                                                "value":  496421,
+                                                                "formula":  "F15-F17"
+                                                            },
+                                                      "G":  {
+                                                                "value":  451417,
+                                                                "formula":  "G15-G17"
+                                                            },
+                                                      "H":  {
+                                                                "value":  952272,
+                                                                "formula":  "H15-H17"
+                                                            },
+                                                      "I":  {
+                                                                "value":  1204636,
+                                                                "formula":  "I15-I17"
+                                                            },
+                                                      "J":  {
+                                                                "value":  1385075,
+                                                                "formula":  "J15-J17"
+                                                            },
+                                                      "L":  "Positivo = sobra de recursos financeiros de curto prazo"
+                                                  }
+                                    },
+                                    {
+                                        "row":  20,
+                                        "cells":  {
+                                                      "A":  "CGL = NCG + ST",
+                                                      "B":  {
+                                                                "value":  1080671,
+                                                                "formula":  "B18+B19"
+                                                            },
+                                                      "C":  {
+                                                                "value":  1092612,
+                                                                "formula":  "C18+C19"
+                                                            },
+                                                      "D":  {
+                                                                "value":  1183094,
+                                                                "formula":  "D18+D19"
+                                                            },
+                                                      "E":  {
+                                                                "value":  1336883,
+                                                                "formula":  "E18+E19"
+                                                            },
+                                                      "F":  {
+                                                                "value":  1226870,
+                                                                "formula":  "F18+F19"
+                                                            },
+                                                      "G":  {
+                                                                "value":  1695553,
+                                                                "formula":  "G18+G19"
+                                                            },
+                                                      "H":  {
+                                                                "value":  2241677,
+                                                                "formula":  "H18+H19"
+                                                            },
+                                                      "I":  {
+                                                                "value":  2433085,
+                                                                "formula":  "I18+I19"
+                                                            },
+                                                      "J":  {
+                                                                "value":  2650846,
+                                                                "formula":  "J18+J19"
+                                                            },
+                                                      "L":  "Capital de giro líquido"
+                                                  }
+                                    },
+                                    {
+                                        "row":  21,
+                                        "cells":  {
+                                                      "A":  "NCG como % da receita líquida",
+                                                      "B":  {
+                                                                "value":  0.215255735026968,
+                                                                "formula":  "B18/Dados!B22"
+                                                            },
+                                                      "C":  {
+                                                                "value":  0.207233162427391,
+                                                                "formula":  "C18/Dados!C22"
+                                                            },
+                                                      "D":  {
+                                                                "value":  0.110505281774942,
+                                                                "formula":  "D18/Dados!D22"
+                                                            },
+                                                      "E":  {
+                                                                "value":  0.249961840750642,
+                                                                "formula":  "E18/Dados!E22"
+                                                            },
+                                                      "F":  {
+                                                                "value":  0.213995428586161,
+                                                                "formula":  "F18/Dados!F22"
+                                                            },
+                                                      "G":  {
+                                                                "value":  0.23419114346009,
+                                                                "formula":  "G18/Dados!G22"
+                                                            },
+                                                      "H":  {
+                                                                "value":  0.197182385659051,
+                                                                "formula":  "H18/Dados!H22"
+                                                            },
+                                                      "I":  {
+                                                                "value":  0.146227652041112,
+                                                                "formula":  "I18/Dados!I22"
+                                                            },
+                                                      "J":  {
+                                                                "value":  0.143889332040596,
+                                                                "formula":  "J18/Dados!J22"
+                                                            }
+                                                  }
+                                    },
+                                    {
+                                        "row":  23,
+                                        "cells":  {
+                                                      "A":  "3. Lucro x caixa"
+                                                  }
+                                    },
+                                    {
+                                        "row":  24,
+                                        "cells":  {
+                                                      "A":  "Lucro líquido do segmento industrial",
+                                                      "B":  {
+                                                                "value":  79311,
+                                                                "formula":  "Dados!B28"
+                                                            },
+                                                      "C":  {
+                                                                "value":  199468,
+                                                                "formula":  "Dados!C28"
+                                                            },
+                                                      "D":  {
+                                                                "value":  206891,
+                                                                "formula":  "Dados!D28"
+                                                            },
+                                                      "E":  {
+                                                                "value":  84760,
+                                                                "formula":  "Dados!E28"
+                                                            },
+                                                      "F":  {
+                                                                "value":  350107,
+                                                                "formula":  "Dados!F28"
+                                                            },
+                                                      "G":  {
+                                                                "value":  421391,
+                                                                "formula":  "Dados!G28"
+                                                            },
+                                                      "H":  {
+                                                                "value":  782550,
+                                                                "formula":  "Dados!H28"
+                                                            },
+                                                      "I":  {
+                                                                "value":  1187299,
+                                                                "formula":  "Dados!I28"
+                                                            },
+                                                      "J":  {
+                                                                "value":  1193312,
+                                                                "formula":  "Dados!J28"
+                                                            }
+                                                  }
+                                    },
+                                    {
+                                        "row":  25,
+                                        "cells":  {
+                                                      "A":  "Caixa operacional do segmento industrial",
+                                                      "B":  {
+                                                                "value":  134412,
+                                                                "formula":  "Dados!B29"
+                                                            },
+                                                      "C":  {
+                                                                "value":  120961,
+                                                                "formula":  "Dados!C29"
+                                                            },
+                                                      "D":  {
+                                                                "value":  645039,
+                                                                "formula":  "Dados!D29"
+                                                            },
+                                                      "E":  {
+                                                                "value":  191563,
+                                                                "formula":  "Dados!E29"
+                                                            },
+                                                      "F":  {
+                                                                "value":  83731,
+                                                                "formula":  "Dados!F29"
+                                                            },
+                                                      "G":  {
+                                                                "value":  4856,
+                                                                "formula":  "Dados!G29"
+                                                            },
+                                                      "H":  {
+                                                                "value":  1194111,
+                                                                "formula":  "Dados!H29"
+                                                            },
+                                                      "I":  {
+                                                                "value":  1472817,
+                                                                "formula":  "Dados!I29"
+                                                            },
+                                                      "J":  {
+                                                                "value":  1449579,
+                                                                "formula":  "Dados!J29"
+                                                            },
+                                                      "L":  "DFC por segmento, método indireto"
+                                                  }
+                                    },
+                                    {
+                                        "row":  26,
+                                        "cells":  {
+                                                      "A":  "Conversão: caixa operacional ÷ lucro líquido",
+                                                      "B":  {
+                                                                "value":  1.69474599992435,
+                                                                "formula":  "B25/B24"
+                                                            },
+                                                      "C":  {
+                                                                "value":  0.606418072071711,
+                                                                "formula":  "C25/C24"
+                                                            },
+                                                      "D":  {
+                                                                "value":  3.11777216021963,
+                                                                "formula":  "D25/D24"
+                                                            },
+                                                      "E":  {
+                                                                "value":  2.26006370929684,
+                                                                "formula":  "E25/E24"
+                                                            },
+                                                      "F":  {
+                                                                "value":  0.239158314458151,
+                                                                "formula":  "F25/F24"
+                                                            },
+                                                      "G":  {
+                                                                "value":  0.0115237392350572,
+                                                                "formula":  "G25/G24"
+                                                            },
+                                                      "H":  {
+                                                                "value":  1.52592294422082,
+                                                                "formula":  "H25/H24"
+                                                            },
+                                                      "I":  {
+                                                                "value":  1.24047691440825,
+                                                                "formula":  "I25/I24"
+                                                            },
+                                                      "J":  {
+                                                                "value":  1.21475272183637,
+                                                                "formula":  "J25/J24"
+                                                            },
+                                                      "L":  "\u003e1 = lucro virou mais caixa que o contábil"
+                                                  }
+                                    },
+                                    {
+                                        "row":  27,
+                                        "cells":  {
+                                                      "A":  "Outras receitas (despesas) operacionais ÷ lucro líquido",
+                                                      "B":  {
+                                                                "value":  -1.00886383982045,
+                                                                "formula":  "Dados!B26/B24"
+                                                            },
+                                                      "C":  {
+                                                                "value":  -0.133219363506928,
+                                                                "formula":  "Dados!C26/C24"
+                                                            },
+                                                      "D":  {
+                                                                "value":  -0.0845179345645775,
+                                                                "formula":  "Dados!D26/D24"
+                                                            },
+                                                      "E":  {
+                                                                "value":  0.0345563945257197,
+                                                                "formula":  "Dados!E26/E24"
+                                                            },
+                                                      "F":  {
+                                                                "value":  0.735380897839803,
+                                                                "formula":  "Dados!F26/F24"
+                                                            },
+                                                      "G":  {
+                                                                "value":  -0.117783721057165,
+                                                                "formula":  "Dados!G26/G24"
+                                                            },
+                                                      "H":  {
+                                                                "value":  -0.0831985176666028,
+                                                                "formula":  "Dados!H26/H24"
+                                                            },
+                                                      "I":  {
+                                                                "value":  -0.0165324825507307,
+                                                                "formula":  "Dados!I26/I24"
+                                                            },
+                                                      "J":  {
+                                                                "value":  0.0157377115121611,
+                                                                "formula":  "Dados!J26/J24"
+                                                            },
+                                                      "L":  "Mostra o peso de itens não recorrentes no lucro (2021)"
+                                                  }
+                                    },
+                                    {
+                                        "row":  29,
+                                        "cells":  {
+                                                      "A":  "4. Caixa mínimo operacional (modelo da aula)"
+                                                  }
+                                    },
+                                    {
+                                        "row":  30,
+                                        "cells":  {
+                                                      "A":  "Desembolsos previstos de caixa (proxy)",
+                                                      "B":  {
+                                                                "value":  2733119,
+                                                                "formula":  "(-Dados!B23)+(-Dados!B24)+(-Dados!B25)-Dados!B27"
+                                                            },
+                                                      "C":  {
+                                                                "value":  3849930,
+                                                                "formula":  "(-Dados!C23)+(-Dados!C24)+(-Dados!C25)-Dados!C27"
+                                                            },
+                                                      "D":  {
+                                                                "value":  3952577,
+                                                                "formula":  "(-Dados!D23)+(-Dados!D24)+(-Dados!D25)-Dados!D27"
+                                                            },
+                                                      "E":  {
+                                                                "value":  3203729,
+                                                                "formula":  "(-Dados!E23)+(-Dados!E24)+(-Dados!E25)-Dados!E27"
+                                                            },
+                                                      "F":  {
+                                                                "value":  3369818,
+                                                                "formula":  "(-Dados!F23)+(-Dados!F24)+(-Dados!F25)-Dados!F27"
+                                                            },
+                                                      "G":  {
+                                                                "value":  4863497,
+                                                                "formula":  "(-Dados!G23)+(-Dados!G24)+(-Dados!G25)-Dados!G27"
+                                                            },
+                                                      "H":  {
+                                                                "value":  5540289,
+                                                                "formula":  "(-Dados!H23)+(-Dados!H24)+(-Dados!H25)-Dados!H27"
+                                                            },
+                                                      "I":  {
+                                                                "value":  6897525,
+                                                                "formula":  "(-Dados!I23)+(-Dados!I24)+(-Dados!I25)-Dados!I27"
+                                                            },
+                                                      "J":  {
+                                                                "value":  7295937,
+                                                                "formula":  "(-Dados!J23)+(-Dados!J24)+(-Dados!J25)-Dados!J27"
+                                                            },
+                                                      "L":  "PREMISSA: CPV + desp. vendas + desp. adm. − depreciação (realizado, não projetado)"
+                                                  }
+                                    },
+                                    {
+                                        "row":  31,
+                                        "cells":  {
+                                                      "A":  "Giro de caixa",
+                                                      "B":  {
+                                                                "value":  3.73695475552983,
+                                                                "formula":  "IF(B11\u003e0,360/B11,0)"
+                                                            },
+                                                      "C":  {
+                                                                "value":  3.41923070712833,
+                                                                "formula":  "IF(C11\u003e0,360/C11,0)"
+                                                            },
+                                                      "D":  {
+                                                                "value":  5.64366985073384,
+                                                                "formula":  "IF(D11\u003e0,360/D11,0)"
+                                                            },
+                                                      "E":  {
+                                                                "value":  2.93157300599839,
+                                                                "formula":  "IF(E11\u003e0,360/E11,0)"
+                                                            },
+                                                      "F":  {
+                                                                "value":  3.2315036819521,
+                                                                "formula":  "IF(F11\u003e0,360/F11,0)"
+                                                            },
+                                                      "G":  {
+                                                                "value":  2.73888076808218,
+                                                                "formula":  "IF(G11\u003e0,360/G11,0)"
+                                                            },
+                                                      "H":  {
+                                                                "value":  3.23029517410122,
+                                                                "formula":  "IF(H11\u003e0,360/H11,0)"
+                                                            },
+                                                      "I":  {
+                                                                "value":  3.32832480582158,
+                                                                "formula":  "IF(I11\u003e0,360/I11,0)"
+                                                            },
+                                                      "J":  {
+                                                                "value":  3.43762729965384,
+                                                                "formula":  "IF(J11\u003e0,360/J11,0)"
+                                                            },
+                                                      "L":  "360 ÷ Ciclo financeiro"
+                                                  }
+                                    },
+                                    {
+                                        "row":  32,
+                                        "cells":  {
+                                                      "A":  "Caixa mínimo operacional",
+                                                      "B":  {
+                                                                "value":  731375.994305421,
+                                                                "formula":  "IF(B31\u003e0,B30/B31,0)"
+                                                            },
+                                                      "C":  {
+                                                                "value":  1125963.7999781,
+                                                                "formula":  "IF(C31\u003e0,C30/C31,0)"
+                                                            },
+                                                      "D":  {
+                                                                "value":  700355.815371811,
+                                                                "formula":  "IF(D31\u003e0,D30/D31,0)"
+                                                            },
+                                                      "E":  {
+                                                                "value":  1092836.16455901,
+                                                                "formula":  "IF(E31\u003e0,E30/E31,0)"
+                                                            },
+                                                      "F":  {
+                                                                "value":  1042801.84448509,
+                                                                "formula":  "IF(F31\u003e0,F30/F31,0)"
+                                                            },
+                                                      "G":  {
+                                                                "value":  1775724.25082437,
+                                                                "formula":  "IF(G31\u003e0,G30/G31,0)"
+                                                            },
+                                                      "H":  {
+                                                                "value":  1715103.01734005,
+                                                                "formula":  "IF(H31\u003e0,H30/H31,0)"
+                                                            },
+                                                      "I":  {
+                                                                "value":  2072371.35868937,
+                                                                "formula":  "IF(I31\u003e0,I30/I31,0)"
+                                                            },
+                                                      "J":  {
+                                                                "value":  2122375.80284945,
+                                                                "formula":  "IF(J31\u003e0,J30/J31,0)"
+                                                            },
+                                                      "L":  "Desembolsos ÷ Giro de caixa"
+                                                  }
+                                    },
+                                    {
+                                        "row":  33,
+                                        "cells":  {
+                                                      "A":  "Caixa e aplicações financeiras reais (caixa + CDB)",
+                                                      "B":  {
+                                                                "value":  1134071,
+                                                                "formula":  "Dados!B6+Dados!B7"
+                                                            },
+                                                      "C":  {
+                                                                "value":  923767,
+                                                                "formula":  "Dados!C6+Dados!C7"
+                                                            },
+                                                      "D":  {
+                                                                "value":  1155572,
+                                                                "formula":  "Dados!D6+Dados!D7"
+                                                            },
+                                                      "E":  {
+                                                                "value":  989248,
+                                                                "formula":  "Dados!E6+Dados!E7"
+                                                            },
+                                                      "F":  {
+                                                                "value":  1279679,
+                                                                "formula":  "Dados!F6+Dados!F7"
+                                                            },
+                                                      "G":  {
+                                                                "value":  1114967,
+                                                                "formula":  "Dados!G6+Dados!G7"
+                                                            },
+                                                      "H":  {
+                                                                "value":  1486554,
+                                                                "formula":  "Dados!H6+Dados!H7"
+                                                            },
+                                                      "I":  {
+                                                                "value":  2044850,
+                                                                "formula":  "Dados!I6+Dados!I7"
+                                                            },
+                                                      "J":  {
+                                                                "value":  2179202,
+                                                                "formula":  "Dados!J6+Dados!J7"
+                                                            }
+                                                  }
+                                    },
+                                    {
+                                        "row":  34,
+                                        "cells":  {
+                                                      "A":  "Folga: caixa real − caixa mínimo",
+                                                      "B":  {
+                                                                "value":  402695.005694579,
+                                                                "formula":  "B33-B32"
+                                                            },
+                                                      "C":  {
+                                                                "value":  -202196.799978095,
+                                                                "formula":  "C33-C32"
+                                                            },
+                                                      "D":  {
+                                                                "value":  455216.184628189,
+                                                                "formula":  "D33-D32"
+                                                            },
+                                                      "E":  {
+                                                                "value":  -103588.164559006,
+                                                                "formula":  "E33-E32"
+                                                            },
+                                                      "F":  {
+                                                                "value":  236877.155514912,
+                                                                "formula":  "F33-F32"
+                                                            },
+                                                      "G":  {
+                                                                "value":  -660757.250824369,
+                                                                "formula":  "G33-G32"
+                                                            },
+                                                      "H":  {
+                                                                "value":  -228549.017340046,
+                                                                "formula":  "H33-H32"
+                                                            },
+                                                      "I":  {
+                                                                "value":  -27521.3586893727,
+                                                                "formula":  "I33-I32"
+                                                            },
+                                                      "J":  {
+                                                                "value":  56826.1971505522,
+                                                                "formula":  "J33-J32"
+                                                            },
+                                                      "L":  "Negativo = abaixo do mínimo do modelo"
+                                                  }
+                                    },
+                                    {
+                                        "row":  36,
+                                        "cells":  {
+                                                      "A":  "5. Qualidade da carteira (CONSOLIDADO, inclui Moneo)"
+                                                  }
+                                    },
+                                    {
+                                        "row":  37,
+                                        "cells":  {
+                                                      "A":  "Total vencido",
+                                                      "B":  {
+                                                                "value":  217551,
+                                                                "formula":  "Dados!B38+Dados!B39+Dados!B40+Dados!B41+Dados!B42"
+                                                            },
+                                                      "C":  {
+                                                                "value":  316945,
+                                                                "formula":  "Dados!C38+Dados!C39+Dados!C40+Dados!C41+Dados!C42"
+                                                            },
+                                                      "D":  {
+                                                                "value":  156067,
+                                                                "formula":  "Dados!D38+Dados!D39+Dados!D40+Dados!D41+Dados!D42"
+                                                            },
+                                                      "E":  {
+                                                                "value":  238417,
+                                                                "formula":  "Dados!E38+Dados!E39+Dados!E40+Dados!E41+Dados!E42"
+                                                            },
+                                                      "F":  {
+                                                                "value":  183220,
+                                                                "formula":  "Dados!F38+Dados!F39+Dados!F40+Dados!F41+Dados!F42"
+                                                            },
+                                                      "G":  {
+                                                                "value":  329319,
+                                                                "formula":  "Dados!G38+Dados!G39+Dados!G40+Dados!G41+Dados!G42"
+                                                            },
+                                                      "H":  {
+                                                                "value":  219223,
+                                                                "formula":  "Dados!H38+Dados!H39+Dados!H40+Dados!H41+Dados!H42"
+                                                            },
+                                                      "I":  {
+                                                                "value":  293150,
+                                                                "formula":  "Dados!I38+Dados!I39+Dados!I40+Dados!I41+Dados!I42"
+                                                            },
+                                                      "J":  {
+                                                                "value":  200748,
+                                                                "formula":  "Dados!J38+Dados!J39+Dados!J40+Dados!J41+Dados!J42"
+                                                            }
+                                                  }
+                                    },
+                                    {
+                                        "row":  38,
+                                        "cells":  {
+                                                      "A":  "Carteira bruta (a vencer + vencido)",
+                                                      "B":  {
+                                                                "value":  1372990,
+                                                                "formula":  "Dados!B37+B37"
+                                                            },
+                                                      "C":  {
+                                                                "value":  1619047,
+                                                                "formula":  "Dados!C37+C37"
+                                                            },
+                                                      "D":  {
+                                                                "value":  1370417,
+                                                                "formula":  "Dados!D37+D37"
+                                                            },
+                                                      "E":  {
+                                                                "value":  1575520,
+                                                                "formula":  "Dados!E37+E37"
+                                                            },
+                                                      "F":  {
+                                                                "value":  1260638,
+                                                                "formula":  "Dados!F37+F37"
+                                                            },
+                                                      "G":  {
+                                                                "value":  1917765,
+                                                                "formula":  "Dados!G37+G37"
+                                                            },
+                                                      "H":  {
+                                                                "value":  1953172,
+                                                                "formula":  "Dados!H37+H37"
+                                                            },
+                                                      "I":  {
+                                                                "value":  2392338,
+                                                                "formula":  "Dados!I37+I37"
+                                                            },
+                                                      "J":  {
+                                                                "value":  2636245,
+                                                                "formula":  "Dados!J37+J37"
+                                                            },
+                                                      "L":  "Antes do AVP e da PDD"
+                                                  }
+                                    },
+                                    {
+                                        "row":  39,
+                                        "cells":  {
+                                                      "A":  "% vencido sobre a carteira bruta",
+                                                      "B":  {
+                                                                "value":  0.158450534963838,
+                                                                "formula":  "B37/B38"
+                                                            },
+                                                      "C":  {
+                                                                "value":  0.19576022190832,
+                                                                "formula":  "C37/C38"
+                                                            },
+                                                      "D":  {
+                                                                "value":  0.113882854634757,
+                                                                "formula":  "D37/D38"
+                                                            },
+                                                      "E":  {
+                                                                "value":  0.15132591144511,
+                                                                "formula":  "E37/E38"
+                                                            },
+                                                      "F":  {
+                                                                "value":  0.145339106071688,
+                                                                "formula":  "F37/F38"
+                                                            },
+                                                      "G":  {
+                                                                "value":  0.171720205551775,
+                                                                "formula":  "G37/G38"
+                                                            },
+                                                      "H":  {
+                                                                "value":  0.112239475069272,
+                                                                "formula":  "H37/H38"
+                                                            },
+                                                      "I":  {
+                                                                "value":  0.122537032810581,
+                                                                "formula":  "I37/I38"
+                                                            },
+                                                      "J":  {
+                                                                "value":  0.0761492198183401,
+                                                                "formula":  "J37/J38"
+                                                            }
+                                                  }
+                                    },
+                                    {
+                                        "row":  40,
+                                        "cells":  {
+                                                      "A":  "% vencido há mais de 90 dias",
+                                                      "B":  {
+                                                                "value":  0.0981157910836933,
+                                                                "formula":  "(Dados!B41+Dados!B42)/B38"
+                                                            },
+                                                      "C":  {
+                                                                "value":  0.0841840910115642,
+                                                                "formula":  "(Dados!C41+Dados!C42)/C38"
+                                                            },
+                                                      "D":  {
+                                                                "value":  0.0769269499721618,
+                                                                "formula":  "(Dados!D41+Dados!D42)/D38"
+                                                            },
+                                                      "E":  {
+                                                                "value":  0.0988505382349954,
+                                                                "formula":  "(Dados!E41+Dados!E42)/E38"
+                                                            },
+                                                      "F":  {
+                                                                "value":  0.0927784185467993,
+                                                                "formula":  "(Dados!F41+Dados!F42)/F38"
+                                                            },
+                                                      "G":  {
+                                                                "value":  0.057913769413875,
+                                                                "formula":  "(Dados!G41+Dados!G42)/G38"
+                                                            },
+                                                      "H":  {
+                                                                "value":  0.0741035607719136,
+                                                                "formula":  "(Dados!H41+Dados!H42)/H38"
+                                                            },
+                                                      "I":  {
+                                                                "value":  0.0460403170455011,
+                                                                "formula":  "(Dados!I41+Dados!I42)/I38"
+                                                            },
+                                                      "J":  {
+                                                                "value":  0.0438676981843493,
+                                                                "formula":  "(Dados!J41+Dados!J42)/J38"
+                                                            }
+                                                  }
+                                    },
+                                    {
+                                        "row":  41,
+                                        "cells":  {
+                                                      "A":  "Cobertura: PDD ÷ total vencido",
+                                                      "B":  {
+                                                                "value":  0.552422190658742,
+                                                                "formula":  "(-Dados!B44)/B37"
+                                                            },
+                                                      "C":  {
+                                                                "value":  0.478647714903217,
+                                                                "formula":  "(-Dados!C44)/C37"
+                                                            },
+                                                      "D":  {
+                                                                "value":  0.901792179000045,
+                                                                "formula":  "(-Dados!D44)/D37"
+                                                            },
+                                                      "E":  {
+                                                                "value":  0.617489524656379,
+                                                                "formula":  "(-Dados!E44)/E37"
+                                                            },
+                                                      "F":  {
+                                                                "value":  0.876110686606266,
+                                                                "formula":  "(-Dados!F44)/F37"
+                                                            },
+                                                      "G":  {
+                                                                "value":  0.422641876114041,
+                                                                "formula":  "(-Dados!G44)/G37"
+                                                            },
+                                                      "H":  {
+                                                                "value":  0.650269360422948,
+                                                                "formula":  "(-Dados!H44)/H37"
+                                                            },
+                                                      "I":  {
+                                                                "value":  0.446372164420945,
+                                                                "formula":  "(-Dados!I44)/I37"
+                                                            },
+                                                      "J":  {
+                                                                "value":  0.672046545918266,
+                                                                "formula":  "(-Dados!J44)/J37"
+                                                            }
+                                                  }
+                                    },
+                                    {
+                                        "row":  42,
+                                        "cells":  {
+                                                      "A":  "PDD ÷ carteira bruta",
+                                                      "B":  {
+                                                                "value":  0.087531591635773,
+                                                                "formula":  "(-Dados!B44)/B38"
+                                                            },
+                                                      "C":  {
+                                                                "value":  0.093700182885364,
+                                                                "formula":  "(-Dados!C44)/C38"
+                                                            },
+                                                      "D":  {
+                                                                "value":  0.102698667631823,
+                                                                "formula":  "(-Dados!D44)/D38"
+                                                            },
+                                                      "E":  {
+                                                                "value":  0.0934421651264345,
+                                                                "formula":  "(-Dados!E44)/E38"
+                                                            },
+                                                      "F":  {
+                                                                "value":  0.127333144011207,
+                                                                "formula":  "(-Dados!F44)/F38"
+                                                            },
+                                                      "G":  {
+                                                                "value":  0.0725761498410911,
+                                                                "formula":  "(-Dados!G44)/G38"
+                                                            },
+                                                      "H":  {
+                                                                "value":  0.0729858916675029,
+                                                                "formula":  "(-Dados!H44)/H38"
+                                                            },
+                                                      "I":  {
+                                                                "value":  0.0546971205573794,
+                                                                "formula":  "(-Dados!I44)/I38"
+                                                            },
+                                                      "J":  {
+                                                                "value":  0.0511758201532862,
+                                                                "formula":  "(-Dados!J44)/J38"
+                                                            }
+                                                  }
+                                    },
+                                    {
+                                        "row":  44,
+                                        "cells":  {
+                                                      "A":  "6. Composição dos estoques (CONSOLIDADO)"
+                                                  }
+                                    },
+                                    {
+                                        "row":  45,
+                                        "cells":  {
+                                                      "A":  "% Produtos acabados (sobre estoque bruto de insumos e produtos)",
+                                                      "B":  {
+                                                                "value":  0.223346647696472,
+                                                                "formula":  "Dados!B47/(Dados!B47+Dados!B48+Dados!B49)"
+                                                            },
+                                                      "C":  {
+                                                                "value":  0.223376219101242,
+                                                                "formula":  "Dados!C47/(Dados!C47+Dados!C48+Dados!C49)"
+                                                            },
+                                                      "D":  {
+                                                                "value":  0.184077347374888,
+                                                                "formula":  "Dados!D47/(Dados!D47+Dados!D48+Dados!D49)"
+                                                            },
+                                                      "E":  {
+                                                                "value":  0.31709565842056,
+                                                                "formula":  "Dados!E47/(Dados!E47+Dados!E48+Dados!E49)"
+                                                            },
+                                                      "F":  {
+                                                                "value":  0.225331567573894,
+                                                                "formula":  "Dados!F47/(Dados!F47+Dados!F48+Dados!F49)"
+                                                            },
+                                                      "G":  {
+                                                                "value":  0.312908613585926,
+                                                                "formula":  "Dados!G47/(Dados!G47+Dados!G48+Dados!G49)"
+                                                            },
+                                                      "H":  {
+                                                                "value":  0.215409810407453,
+                                                                "formula":  "Dados!H47/(Dados!H47+Dados!H48+Dados!H49)"
+                                                            },
+                                                      "I":  {
+                                                                "value":  0.201337082800478,
+                                                                "formula":  "Dados!I47/(Dados!I47+Dados!I48+Dados!I49)"
+                                                            },
+                                                      "J":  {
+                                                                "value":  0.26340364481438,
+                                                                "formula":  "Dados!J47/(Dados!J47+Dados!J48+Dados!J49)"
+                                                            }
+                                                  }
+                                    },
+                                    {
+                                        "row":  46,
+                                        "cells":  {
+                                                      "A":  "% Produtos em elaboração (sobre estoque bruto de insumos e produtos)",
+                                                      "B":  {
+                                                                "value":  0.224352563814027,
+                                                                "formula":  "Dados!B48/(Dados!B47+Dados!B48+Dados!B49)"
+                                                            },
+                                                      "C":  {
+                                                                "value":  0.224231516657147,
+                                                                "formula":  "Dados!C48/(Dados!C47+Dados!C48+Dados!C49)"
+                                                            },
+                                                      "D":  {
+                                                                "value":  0.200880947008554,
+                                                                "formula":  "Dados!D48/(Dados!D47+Dados!D48+Dados!D49)"
+                                                            },
+                                                      "E":  {
+                                                                "value":  0.156655759217831,
+                                                                "formula":  "Dados!E48/(Dados!E47+Dados!E48+Dados!E49)"
+                                                            },
+                                                      "F":  {
+                                                                "value":  0.157392455930069,
+                                                                "formula":  "Dados!F48/(Dados!F47+Dados!F48+Dados!F49)"
+                                                            },
+                                                      "G":  {
+                                                                "value":  0.129633645383003,
+                                                                "formula":  "Dados!G48/(Dados!G47+Dados!G48+Dados!G49)"
+                                                            },
+                                                      "H":  {
+                                                                "value":  0.178481923525471,
+                                                                "formula":  "Dados!H48/(Dados!H47+Dados!H48+Dados!H49)"
+                                                            },
+                                                      "I":  {
+                                                                "value":  0.244719918364675,
+                                                                "formula":  "Dados!I48/(Dados!I47+Dados!I48+Dados!I49)"
+                                                            },
+                                                      "J":  {
+                                                                "value":  0.211734784619215,
+                                                                "formula":  "Dados!J48/(Dados!J47+Dados!J48+Dados!J49)"
+                                                            }
+                                                  }
+                                    },
+                                    {
+                                        "row":  47,
+                                        "cells":  {
+                                                      "A":  "% Matérias-primas e auxiliares (sobre estoque bruto de insumos e produtos)",
+                                                      "B":  {
+                                                                "value":  0.552300788489502,
+                                                                "formula":  "Dados!B49/(Dados!B47+Dados!B48+Dados!B49)"
+                                                            },
+                                                      "C":  {
+                                                                "value":  0.552392264241611,
+                                                                "formula":  "Dados!C49/(Dados!C47+Dados!C48+Dados!C49)"
+                                                            },
+                                                      "D":  {
+                                                                "value":  0.615041705616559,
+                                                                "formula":  "Dados!D49/(Dados!D47+Dados!D48+Dados!D49)"
+                                                            },
+                                                      "E":  {
+                                                                "value":  0.526248582361609,
+                                                                "formula":  "Dados!E49/(Dados!E47+Dados!E48+Dados!E49)"
+                                                            },
+                                                      "F":  {
+                                                                "value":  0.617275976496037,
+                                                                "formula":  "Dados!F49/(Dados!F47+Dados!F48+Dados!F49)"
+                                                            },
+                                                      "G":  {
+                                                                "value":  0.557457741031071,
+                                                                "formula":  "Dados!G49/(Dados!G47+Dados!G48+Dados!G49)"
+                                                            },
+                                                      "H":  {
+                                                                "value":  0.606108266067076,
+                                                                "formula":  "Dados!H49/(Dados!H47+Dados!H48+Dados!H49)"
+                                                            },
+                                                      "I":  {
+                                                                "value":  0.553942998834848,
+                                                                "formula":  "Dados!I49/(Dados!I47+Dados!I48+Dados!I49)"
+                                                            },
+                                                      "J":  {
+                                                                "value":  0.524861570566405,
+                                                                "formula":  "Dados!J49/(Dados!J47+Dados!J48+Dados!J49)"
+                                                            }
+                                                  }
+                                    },
+                                    {
+                                        "row":  49,
+                                        "cells":  {
+                                                      "A":  "7. Conferências (todas devem ser 0)"
+                                                  }
+                                    },
+                                    {
+                                        "row":  50,
+                                        "cells":  {
+                                                      "A":  "CGL − (AC − PC reportados do industrial)",
+                                                      "B":  {
+                                                                "value":  0,
+                                                                "formula":  "B20-(Dados!B19-Dados!B20)"
+                                                            },
+                                                      "C":  {
+                                                                "value":  0,
+                                                                "formula":  "C20-(Dados!C19-Dados!C20)"
+                                                            },
+                                                      "D":  {
+                                                                "value":  0,
+                                                                "formula":  "D20-(Dados!D19-Dados!D20)"
+                                                            },
+                                                      "E":  {
+                                                                "value":  0,
+                                                                "formula":  "E20-(Dados!E19-Dados!E20)"
+                                                            },
+                                                      "F":  {
+                                                                "value":  0,
+                                                                "formula":  "F20-(Dados!F19-Dados!F20)"
+                                                            },
+                                                      "G":  {
+                                                                "value":  0,
+                                                                "formula":  "G20-(Dados!G19-Dados!G20)"
+                                                            },
+                                                      "H":  {
+                                                                "value":  0,
+                                                                "formula":  "H20-(Dados!H19-Dados!H20)"
+                                                            },
+                                                      "I":  {
+                                                                "value":  0,
+                                                                "formula":  "I20-(Dados!I19-Dados!I20)"
+                                                            },
+                                                      "J":  {
+                                                                "value":  0,
+                                                                "formula":  "J20-(Dados!J19-Dados!J20)"
+                                                            },
+                                                      "L":  "Reclassificação fecha com o balanço do segmento"
+                                                  }
+                                    },
+                                    {
+                                        "row":  51,
+                                        "cells":  {
+                                                      "A":  "ACO + ACF − AC reportado",
+                                                      "B":  {
+                                                                "value":  0,
+                                                                "formula":  "B14+B15-Dados!B19"
+                                                            },
+                                                      "C":  {
+                                                                "value":  0,
+                                                                "formula":  "C14+C15-Dados!C19"
+                                                            },
+                                                      "D":  {
+                                                                "value":  0,
+                                                                "formula":  "D14+D15-Dados!D19"
+                                                            },
+                                                      "E":  {
+                                                                "value":  0,
+                                                                "formula":  "E14+E15-Dados!E19"
+                                                            },
+                                                      "F":  {
+                                                                "value":  0,
+                                                                "formula":  "F14+F15-Dados!F19"
+                                                            },
+                                                      "G":  {
+                                                                "value":  0,
+                                                                "formula":  "G14+G15-Dados!G19"
+                                                            },
+                                                      "H":  {
+                                                                "value":  0,
+                                                                "formula":  "H14+H15-Dados!H19"
+                                                            },
+                                                      "I":  {
+                                                                "value":  0,
+                                                                "formula":  "I14+I15-Dados!I19"
+                                                            },
+                                                      "J":  {
+                                                                "value":  0,
+                                                                "formula":  "J14+J15-Dados!J19"
+                                                            }
+                                                  }
+                                    },
+                                    {
+                                        "row":  52,
+                                        "cells":  {
+                                                      "A":  "PCO + PCF − PC reportado",
+                                                      "B":  {
+                                                                "value":  0,
+                                                                "formula":  "B16+B17-Dados!B20"
+                                                            },
+                                                      "C":  {
+                                                                "value":  0,
+                                                                "formula":  "C16+C17-Dados!C20"
+                                                            },
+                                                      "D":  {
+                                                                "value":  0,
+                                                                "formula":  "D16+D17-Dados!D20"
+                                                            },
+                                                      "E":  {
+                                                                "value":  0,
+                                                                "formula":  "E16+E17-Dados!E20"
+                                                            },
+                                                      "F":  {
+                                                                "value":  0,
+                                                                "formula":  "F16+F17-Dados!F20"
+                                                            },
+                                                      "G":  {
+                                                                "value":  0,
+                                                                "formula":  "G16+G17-Dados!G20"
+                                                            },
+                                                      "H":  {
+                                                                "value":  0,
+                                                                "formula":  "H16+H17-Dados!H20"
+                                                            },
+                                                      "I":  {
+                                                                "value":  0,
+                                                                "formula":  "I16+I17-Dados!I20"
+                                                            },
+                                                      "J":  {
+                                                                "value":  0,
+                                                                "formula":  "J16+J17-Dados!J20"
+                                                            }
+                                                  }
+                                    },
+                                    {
+                                        "row":  53,
+                                        "cells":  {
+                                                      "A":  "Aging + AVP + PDD − total do contas a receber",
+                                                      "B":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!B37+B37+Dados!B43+Dados!B44-Dados!B45"
+                                                            },
+                                                      "C":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!C37+C37+Dados!C43+Dados!C44-Dados!C45"
+                                                            },
+                                                      "D":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!D37+D37+Dados!D43+Dados!D44-Dados!D45"
+                                                            },
+                                                      "E":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!E37+E37+Dados!E43+Dados!E44-Dados!E45"
+                                                            },
+                                                      "F":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!F37+F37+Dados!F43+Dados!F44-Dados!F45"
+                                                            },
+                                                      "G":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!G37+G37+Dados!G43+Dados!G44-Dados!G45"
+                                                            },
+                                                      "H":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!H37+H37+Dados!H43+Dados!H44-Dados!H45"
+                                                            },
+                                                      "I":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!I37+I37+Dados!I43+Dados!I44-Dados!I45"
+                                                            },
+                                                      "J":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!J37+J37+Dados!J43+Dados!J44-Dados!J45"
+                                                            },
+                                                      "L":  "Aging fecha com a nota"
+                                                  }
+                                    },
+                                    {
+                                        "row":  54,
+                                        "cells":  {
+                                                      "A":  "Soma da composição − total dos estoques",
+                                                      "B":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!B47+Dados!B48+Dados!B49+Dados!B50+Dados!B51-Dados!B52"
+                                                            },
+                                                      "C":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!C47+Dados!C48+Dados!C49+Dados!C50+Dados!C51-Dados!C52"
+                                                            },
+                                                      "D":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!D47+Dados!D48+Dados!D49+Dados!D50+Dados!D51-Dados!D52"
+                                                            },
+                                                      "E":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!E47+Dados!E48+Dados!E49+Dados!E50+Dados!E51-Dados!E52"
+                                                            },
+                                                      "F":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!F47+Dados!F48+Dados!F49+Dados!F50+Dados!F51-Dados!F52"
+                                                            },
+                                                      "G":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!G47+Dados!G48+Dados!G49+Dados!G50+Dados!G51-Dados!G52"
+                                                            },
+                                                      "H":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!H47+Dados!H48+Dados!H49+Dados!H50+Dados!H51-Dados!H52"
+                                                            },
+                                                      "I":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!I47+Dados!I48+Dados!I49+Dados!I50+Dados!I51-Dados!I52"
+                                                            },
+                                                      "J":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!J47+Dados!J48+Dados!J49+Dados!J50+Dados!J51-Dados!J52"
+                                                            },
+                                                      "L":  "Composição fecha com a nota"
+                                                  }
+                                    },
+                                    {
+                                        "row":  55,
+                                        "cells":  {
+                                                      "A":  "Estoque da composição − estoque do balanço do segmento",
+                                                      "B":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!B52-Dados!B11"
+                                                            },
+                                                      "C":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!C52-Dados!C11"
+                                                            },
+                                                      "D":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!D52-Dados!D11"
+                                                            },
+                                                      "E":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!E52-Dados!E11"
+                                                            },
+                                                      "F":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!F52-Dados!F11"
+                                                            },
+                                                      "G":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!G52-Dados!G11"
+                                                            },
+                                                      "H":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!H52-Dados!H11"
+                                                            },
+                                                      "I":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!I52-Dados!I11"
+                                                            },
+                                                      "J":  {
+                                                                "value":  0,
+                                                                "formula":  "Dados!J52-Dados!J11"
+                                                            },
+                                                      "L":  "Estoques são 100% industriais"
+                                                  }
+                                    }
+                                ]
+                   },
+                   {
+                       "name":  "Premissas",
+                       "range":  "A1:A15",
+                       "rows":  [
+                                    {
+                                        "row":  1,
+                                        "cells":  {
+                                                      "A":  "Premissas e limitações (registrar no relatório)"
+                                                  }
+                                    },
+                                    {
+                                        "row":  2,
+                                        "cells":  {
+                                                      "A":  "1. Base: segmento INDUSTRIAL (notas de segmentos). O consolidado inclui o Banco Moneo (financiamentos de ônibus com repasses BNDES/FINAME), que distorceria PMRV, NCG e ST."
+                                                  }
+                                    },
+                                    {
+                                        "row":  3,
+                                        "cells":  {
+                                                      "A":  "2. Saldo final do ano (não média), ano de 360 dias, receita líquida como base de vendas. Compras = CPV − Estoque inicial + Estoque final."
+                                                  }
+                                    },
+                                    {
+                                        "row":  4,
+                                        "cells":  {
+                                                      "A":  "3. Versão mais recente de cada ano. Reapresentações encontradas: (a) 2019, na DFP 2020: o passivo de arrendamento saiu de \"empréstimos\" e foi para \"outras contas a pagar\", e a receita/CPV consolidados subiram R$ 52,9 mi só no segmento financeiro (o industrial não mudou); (b) 2024, na DFP 2025: o caixa operacional do industrial passou de 1.471.834 para 1.472.817 e a composição dos estoques foi reclassificada (total igual). Para manter a série comparável, o arrendamento circulante foi destacado em Dados e tratado como PCF em todos os anos."
+                                                  }
+                                    },
+                                    {
+                                        "row":  5,
+                                        "cells":  {
+                                                      "A":  "4. IFRS 16: adotado em 2019 pela abordagem simplificada, sem reapresentar 2017 e 2018. Esses dois anos não são 100% comparáveis aos demais quanto ao arrendamento (efeito pequeno no CGL)."
+                                                  }
+                                    },
+                                    {
+                                        "row":  6,
+                                        "cells":  {
+                                                      "A":  "5. \"Outras contas a receber\" do industrial = ACO (inclui tributos a recuperar). Subiu de R$ 208 mi para R$ 379 mi em 2020, o que pressiona a NCG. Não foi aberta por natureza."
+                                                  }
+                                    },
+                                    {
+                                        "row":  7,
+                                        "cells":  {
+                                                      "A":  "6. Dividendo a pagar = PCF. Se fosse PCO, a NCG cairia pelo valor do dividendo e o ST subiria no mesmo valor; o CGL não muda."
+                                                  }
+                                    },
+                                    {
+                                        "row":  8,
+                                        "cells":  {
+                                                      "A":  "7. Caixa mínimo: desembolsos = valores realizados do ano (proxy), não projeção. O modelo ignora sazonalidade e o lucro gerado (limitações citadas na aula)."
+                                                  }
+                                    },
+                                    {
+                                        "row":  9,
+                                        "cells":  {
+                                                      "A":  "8. Aging e estoques são CONSOLIDADOS (a nota não separa o industrial). O aging inclui a carteira do Moneo, que cresceu muito (relações interfinanceiras de R$ 0,7 bi em 2017 para R$ 1,5 bi em 2025), então os indicadores de carteira ficam mais \"bancários\" ao longo do tempo."
+                                                  }
+                                    },
+                                    {
+                                        "row":  10,
+                                        "cells":  {
+                                                      "A":  "9. Cessão/antecipação de recebíveis: busca textual por cessão, desconto de duplicatas, FIDC, forfait, risco sacado e confirming não retornou ocorrências nas DFPs de 2017 a 2025. A única operação com recebíveis é o financiamento de ônibus pelo Banco Moneo. A busca foi textual e não substitui a leitura das notas de empréstimos."
+                                                  }
+                                    },
+                                    {
+                                        "row":  11,
+                                        "cells":  {
+                                                      "A":  "10. 2021: o lucro líquido do industrial (R$ 350 mi) inclui R$ 257 mi de outras receitas operacionais, em boa parte créditos tributários não recorrentes (exclusão do ICMS da base do PIS/COFINS, Selic sobre indébitos) e ganho na venda de imóvel. Isso distorce a razão caixa operacional ÷ lucro."
+                                                  }
+                                    },
+                                    {
+                                        "row":  12,
+                                        "cells":  {
+                                                      "A":  "11. 2020 e 2021 incluem custo de ociosidade no CPV (R$ 56,5 mi e R$ 10,1 mi no consolidado), o que infla um pouco PMRE e reduz PMPC."
+                                                  }
+                                    },
+                                    {
+                                        "row":  13,
+                                        "cells":  {
+                                                      "A":  "12. Comparabilidade 2023–2025: em 2023 houve incorporação da Ciferal e impairment do ágio (R$ 71 mi, ajuste não caixa); em 2024 as operações argentinas Metalsur e Loma passaram a ser consolidadas (a partir de setembro) e o lucro inclui ganho não caixa de correção monetária por hiperinflação (R$ 248,6 mi), revertido na DFC. Isso afeta estoques, recebíveis e lucro de 2024 e 2025."
+                                                  }
+                                    },
+                                    {
+                                        "row":  14,
+                                        "cells":  {
+                                                      "A":  "13. A partir de 2022 a nota chama a PDD de \"perdas de crédito esperadas\" e o item \"adiantamentos a fornecedores\" passa a se chamar \"importações em andamento\". Tratados como a mesma linha para fins de série."
+                                                  }
+                                    },
+                                    {
+                                        "row":  15,
+                                        "cells":  {
+                                                      "A":  "14. Sinais: CPV, despesas, AVP e PDD ficam negativos em Dados, como nos demonstrativos. As fórmulas invertem o sinal. Ao incluir novos anos, mantenham o mesmo sinal."
+                                                  }
+                                    }
+                                ]
+                   }
+               ]
+}
