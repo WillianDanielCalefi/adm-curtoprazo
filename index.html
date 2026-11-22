@@ -60,6 +60,17 @@
       gap: 12px;
     }
 
+    .header-logo {
+      width: 180px;
+      max-width: 24%;
+      max-height: 100px;
+      padding: 8px;
+      border-radius: 10px;
+      background: #fff;
+      object-fit: contain;
+      flex: 0 0 auto;
+    }
+
     .badge {
       display: inline-block;
       background: rgba(255, 255, 255, 0.16);
@@ -287,9 +298,17 @@
     .flow-bar-row.flow-selected { grid-template-columns: 150px minmax(80px, 1fr) 100px; }
     .flow-track { height: 14px; position: relative; border-radius: 5px; background: #f1f5f9; }
     .flow-track::before { content: ""; position: absolute; left: 50%; top: -3px; bottom: -3px; width: 1px; background: #94a3b8; }
-    .flow-bar { position: absolute; top: 2px; height: 10px; border-radius: 4px; }
+    .flow-bar { position: absolute; top: 2px; height: 10px; border-radius: 4px; z-index: 1; }
     .flow-bar.positive { left: 50%; background: var(--success); }
     .flow-bar.negative { right: 50%; background: var(--danger); }
+    .flow-truck { position: absolute; top: 50%; width: 22px; height: 16px; transform: translateY(-50%); z-index: 2; }
+    .flow-bar.positive .flow-truck { left: calc(100% + 4px); }
+    .flow-bar.negative .flow-truck { right: calc(100% + 4px); transform: translateY(-50%) scaleX(-1); }
+    .flow-bar.positive .truck-body { fill: #34d399; }
+    .flow-bar.negative .truck-body { fill: #f87171; }
+    .flow-truck .truck-body { stroke: #0f172a; stroke-width: 1.3; stroke-linejoin: round; }
+    .flow-truck .truck-window { fill: #bfdbfe; stroke: #0f172a; stroke-width: 0.6; stroke-linejoin: round; }
+    .flow-truck .truck-wheel { fill: #0f172a; stroke: #fff; stroke-width: 0.6; }
 
     /* Simulator */
     .sim-layout {
@@ -300,6 +319,14 @@
 
     .sim-layout > * {
       min-width: 0;
+    }
+
+    @media (max-width: 700px) {
+      .header-logo {
+        width: 160px;
+        max-width: 38vw;
+        max-height: 70px;
+      }
     }
 
     @media (max-width: 860px) {
@@ -323,9 +350,53 @@
     }
 
     input[type="range"] {
+      --range-progress: 0%;
+      --range-truck-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 20'%3E%3Cpath d='M1 4h15v11H1zM16 8h6l4 4v3H16z' fill='%2334d399' stroke='%230f172a' stroke-width='1.3' stroke-linejoin='round'/%3E%3Cpath d='M18 9h3.5l2.8 3H18z' fill='%23bfdbfe' stroke='%230f172a' stroke-width='0.6' stroke-linejoin='round'/%3E%3Ccircle cx='7' cy='16' r='2.5' fill='%230f172a' stroke='%23fff' stroke-width='0.6'/%3E%3Ccircle cx='21' cy='16' r='2.5' fill='%230f172a' stroke='%23fff' stroke-width='0.6'/%3E%3C/svg%3E");
       width: 100%;
-      accent-color: var(--primary);
+      height: 26px;
+      appearance: none;
+      background: transparent;
       cursor: pointer;
+    }
+
+    input[type="range"]::-webkit-slider-runnable-track {
+      height: 6px;
+      border: 1px solid #bfdbfe;
+      border-radius: 999px;
+      background: linear-gradient(to right, var(--primary) 0%, var(--primary) var(--range-progress), #dbeafe var(--range-progress), #dbeafe 100%);
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      width: 28px;
+      height: 22px;
+      margin-top: -9px;
+      appearance: none;
+      border: 0;
+      background: var(--range-truck-image) center / contain no-repeat;
+      cursor: grab;
+    }
+
+    input[type="range"]:active::-webkit-slider-thumb {
+      cursor: grabbing;
+    }
+
+    input[type="range"]::-moz-range-track {
+      height: 6px;
+      border: 1px solid #bfdbfe;
+      border-radius: 999px;
+      background: linear-gradient(to right, var(--primary) 0%, var(--primary) var(--range-progress), #dbeafe var(--range-progress), #dbeafe 100%);
+    }
+
+    input[type="range"]::-moz-range-thumb {
+      width: 28px;
+      height: 22px;
+      border: 0;
+      background: var(--range-truck-image) center / contain no-repeat;
+      cursor: grab;
+    }
+
+    input[type="range"]:active::-moz-range-thumb {
+      cursor: grabbing;
     }
 
     select, button.btn {
@@ -598,11 +669,11 @@
     <div class="container">
       <div class="header-top">
         <span class="badge">Administração Financeira de Curto Prazo • Marcopolo (2017–2025)</span>
-        <span class="badge">Base: Segmento Industrial (R$ milhões / 360 dias) • Dados Reais do Excel</span>
+        <img class="header-logo" src="images-removebg-preview.png" alt="Fundação Hermínio Ometto" />
       </div>
       <h1>Capital de Giro, Ciclos e Caixa Mínimo da Marcopolo</h1>
       <p class="subtitle">
-        Protótipo interativo alinhado à planilha-base atualizada (2017–2025), com dados do segmento industrial em R$ milhões e ano-base de 360 dias.
+        Projeto interativo alinhado à planilha-base (2017 – 2025), com dados do segmento industrial em R$ milhões e ano-base de 360 dias.
       </p>
       <div class="tabs" role="tablist">
         <button class="tab-btn active" data-tab="diagnostico">1. Diagnóstico (2017–2025)</button>
@@ -610,8 +681,8 @@
         <button class="tab-btn" data-tab="desafio">3. Desafio CFO (por ano)</button>
         <button class="tab-btn" data-tab="conceitos">4. Conceitos e Indicadores</button>
         <button class="tab-btn" data-tab="estrategias">5. Estratégias de Gestão</button>
-        <button class="tab-btn" data-tab="comparativo">6. Comparativo e Conclusão</button>
-        <button class="tab-btn" data-tab="fluxoCaixa">7. Fluxo de Caixa</button>
+        <button class="tab-btn" data-tab="fluxoCaixa">6. Fluxo de Caixa</button>
+        <button class="tab-btn" data-tab="comparativo">7. Comparativo e Conclusão</button>
       </div>
     </div>
   </header>
@@ -1068,6 +1139,7 @@
 
     <div class="footer-note">
       Protótipo educacional em HTML, CSS e JavaScript, alimentado pelo JSON da planilha (valores em R$ milhões, base 360 dias).
+      <br />Participantes: Geordanna Talamoni (RA: 117508) • Mariana Leoneti (RA: 116263)
     </div>
   </main>
 
@@ -1347,9 +1419,10 @@
       ];
       const maxValue = Math.max(...selectedMetrics.map(([, value]) => Math.abs(value)), 1);
       document.getElementById("cashFlowSelectedChart").innerHTML = selectedMetrics.map(([label, value]) => {
-        const width = Math.min(Math.abs(value) / maxValue * 48, 48);
+        const width = Math.min(Math.abs(value) / maxValue * 44, 44);
         const signClass = value < 0 ? "negative" : "positive";
-        return `<div class="flow-bar-row flow-selected"><strong>${label}</strong><div class="flow-track"><span class="flow-bar ${signClass}" style="width:${width}%"></span></div><span>${fmtSignedBRL(value)}</span></div>`;
+        const truck = value === 0 ? "" : `<svg class="flow-truck" viewBox="0 0 28 20" aria-hidden="true"><path class="truck-body" d="M1 4h15v11H1zM16 8h6l4 4v3H16z"/><path class="truck-window" d="M18 9h3.5l2.8 3H18z"/><circle class="truck-wheel" cx="7" cy="16" r="2.5"/><circle class="truck-wheel" cx="21" cy="16" r="2.5"/></svg>`;
+        return `<div class="flow-bar-row flow-selected"><strong>${label}</strong><div class="flow-track"><span class="flow-bar ${signClass}" style="width:${width}%">${truck}</span></div><span>${fmtSignedBRL(value)}</span></div>`;
       }).join("");
       document.getElementById("cashFlowHistoryBody").innerHTML = DATA.map(item => `
         <tr>
@@ -1432,6 +1505,12 @@
 
     function updateSimulator() {
       const base = getBaseRow();
+      [pmreSlider, pmrvSlider, pmpcSlider, disbSlider].forEach(slider => {
+        const min = Number(slider.min);
+        const max = Number(slider.max);
+        const value = Number(slider.value);
+        slider.style.setProperty("--range-progress", `${(value - min) / (max - min) * 100}%`);
+      });
       const pmre = parseFloat(pmreSlider.value);
       const pmrv = parseFloat(pmrvSlider.value);
       const pmpc = parseFloat(pmpcSlider.value);
